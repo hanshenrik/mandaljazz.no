@@ -1,7 +1,7 @@
 [
   {
-    "hideFromProgram": true,
     "venue": "Teltet",
+    "concertStartAt": "2022-07-02T21:00",
     "name": "Steamdome",
     "imageName": "steamdome.jpg",
     "id": "steamdome",
@@ -31,8 +31,8 @@
     "isByjubileumArtist": false
   },
   {
-    "hideFromProgram": true,
     "venue": "TBA",
+    "concertStartAt": "2022-06-30T18:00",
     "name": "Stein Austrud",
     "imageName": "stein-austrud.png",
     "id": "stein-austrud",
@@ -61,8 +61,8 @@
     "isByjubileumArtist": true
   },
   {
-    "hideFromProgram": true,
     "venue": "Teltet",
+    "concertStartAt": "2022-07-01T22:00",
     "name": "Marilyn Mazur – Shamania",
     "shortName": "Marilyn Mazur",
     "imageName": "marilyn-mazurs-shamania.png",
@@ -92,8 +92,8 @@
     "isPulsArtist": true
   },
   {
-    "hideFromProgram": true,
     "venue": "Teltet",
+    "concertStartAt": "2022-07-02T23:00",
     "name": "The KutiMangoes",
     "imageName": "the-kutimangoes.png",
     "id": "the-kutimangoes",
@@ -118,8 +118,8 @@
     "isPulsArtist": true
   },
   {
-    "hideFromProgram": true,
     "venue": "Teltet",
+    "concertStartAt": "2022-07-01T18:00",
     "shortName": "Akmee",
     "name": "Akmee – 100-årsjubileum",
     "imageName": "akmee.jpg",
@@ -143,8 +143,8 @@
     "isByjubileumArtist": true
   },
   {
-    "hideFromProgram": true,
     "venue": "TBA",
+    "concertStartAt": "2022-07-01T23:30",
     "name": "The Big YES!",
     "imageName": "the-big-yes.jpg",
     "id": "the-big-yes",
@@ -167,8 +167,8 @@
     "isPulsArtist": true
   },
   {
-    "hideFromProgram": true,
     "venue": "Teltet",
+    "concertStartAt": "2022-07-02T18:30",
     "name": "Marthe Lea Band",
     "imageName": "marthe-lea-band.jpg",
     "id": "marthe-lea-band",
@@ -195,8 +195,8 @@
     "isPulsArtist": false
   },
   {
-    "hideFromProgram": true,
-    "venue": "TBA",
+    "venue": "Teltet",
+    "concertStartAt": "2022-06-30T19:30",
     "name": "¡BangBang Watergun!",
     "imageName": "bangbang-watergun.jpg",
     "id": "bangbang-watergun",
@@ -225,8 +225,8 @@
     "imageAttribution": "Foto: Martin Bremnes"
   },
   {
-    "hideFromProgram": true,
     "venue": "TBA",
+    "concertStartAt": "2022-07-02T13:00",
     "name": "365 dager i et år",
     "imageName": "365-dager-i-et-ar.jpg",
     "id": "365-dager-i-et-ar",
@@ -249,8 +249,8 @@
     "isByjubileumArtist": true
   },
   {
-    "hideFromProgram": true,
     "venue": "Hestetroa",
+    "concertStartAt": "2022-07-02T14:00",
     "name": "Sørnorsk Ungdomsstorband",
     "shortName": "SNUS",
     "imageName": "snus.jpg",
