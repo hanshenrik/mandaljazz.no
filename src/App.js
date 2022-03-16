@@ -5,7 +5,7 @@ import {
   Footer,
   NavMenu,
   GoogleAnalyticsListener,
-  // Program,
+  Program,
   BuyTicketButton,
 } from "./components";
 import {
@@ -37,7 +37,7 @@ class App extends React.Component {
                 ) && (
                   <>
                     <NavMenu />
-                    {/* <Program /> */}
+                    <Program />
                   </>
                 )}
                 <Switch location={location}>

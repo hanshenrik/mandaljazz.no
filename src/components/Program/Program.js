@@ -27,7 +27,7 @@ class Program extends React.Component {
   artistsGroupedByDay = () =>
     Object.entries(
       groupBy(sortBy(this.artistsToBeShown, "concertStartAt"), (artist) =>
-        capitalize(dayjs(artist.concertStartAt).format("dddd"))
+        capitalize(dayjs(artist.concertStartAt).format("dddd D. MMMM"))
       )
     );
 
