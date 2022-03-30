@@ -120,7 +120,7 @@ const VolunteerPage = () => (
         </div>
       </Collapsible>
     </div>
-    {/* <ScrollToFormButton /> */}
+    <ScrollToFormButton />
     <div style={{ maxWidth: "720px" }}>
       <Blockquote person="Håvard (bar og servering)">
         Hadde det ikke vært for at man måtte okkupere den beste plassen i
@@ -156,19 +156,19 @@ const VolunteerPage = () => (
         <img src={volunteers2016Img} alt="Frivilliggjengen 2016" />
         <figcaption>Frivilliggjengen 2016</figcaption>
       </figure>
-      {/* <div id="frivilligskjema" />
+      <div id="frivilligskjema" />
       <iframe
         id="volunteer-form"
         title="Frivilligskjema"
-        src="https://docs.google.com/forms/d/e/1FAIpQLSfckhDBZ8adOzk_XoDSeLtvj37KGexnRMI6lWKJR1xA19HOug/viewform?embedded=true"
+        src="https://docs.google.com/forms/d/e/1FAIpQLSdjCt2yNC6DBCJzAw8CZpQt9lhx_NIM_5WQJwXOEqFyFiliTQ/viewform?embedded=true"
         width="100%"
-        height="1700"
+        height="4000"
         frameBorder="0"
         marginHeight="0"
         marginWidth="0"
       >
         Henter skjema…
-      </iframe> */}
+      </iframe>
       <figure>
         <img src={volunteers2014Img} alt="Frivilliggjengen 2014" />
         <figcaption>Frivilliggjengen 2014</figcaption>
