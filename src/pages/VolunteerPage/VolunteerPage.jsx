@@ -1,5 +1,4 @@
 import React from "react";
-import { isMobile } from "react-device-detect";
 
 import promoVideo from "../../assets/videos/promo.mp4";
 import {
@@ -24,9 +23,14 @@ const ScrollToFormButton = () => (
         .getElementById("frivilligskjema")
         .scrollIntoView({ behavior: "smooth" });
     }}
-    style={{ marginTop: "2rem", border: "none" }}
+    style={{
+      marginTop: "2rem",
+      border: "none",
+      width: "fit-content",
+      placeSelf: "center",
+    }}
   >
-    <Button large={!isMobile}>Registrer din interesse!</Button>
+    <Button>Registrer din interesse!</Button>
   </div>
 );
 
@@ -38,15 +42,28 @@ const VolunteerPage = () => (
       Beklager, her skulle det egentlig vært en video, men nettleseren din
       støtter ikke innebygde videoer :(
     </video>
-    <div style={{ padding: "1rem", maxWidth: "720px" }}>
+    <div
+      style={{
+        padding: "1rem",
+        maxWidth: "720px",
+        display: "flex",
+        flexDirection: "column",
+      }}
+    >
       <p>
         Så kult at du vurderer å være med som frivillig på Mandaljazz 2022!
         Nedenfor kan du lese litt om de ulike frivilliggjengene for å finne din
         gjeng.
       </p>
-      <p>
-        <em>Registreringsskjema dukker opp litt nærmere festivalstart.</em>
-      </p>
+      <div
+        style={{
+          marginTop: "-2rem",
+          display: "flex",
+          justifyContent: "center",
+        }}
+      >
+        <ScrollToFormButton />
+      </div>
       <p>
         Som frivillig på Mandaljazz får du oppleve massevis av god musikk og mye
         morro sammen med en herlig gjeng sosiale, hyggelige og åpne folk.
