@@ -226,6 +226,38 @@
   },
   {
     "venue": "TBA",
+    "concertStartAt": "2022-07-02T16:00",
+    "name": "Maridalen",
+    "imageName": "maridalen.jpg",
+    "id": "maridalen",
+    "paragraphs": [
+      "Intim kammerjazz fra Maridalen",
+      "Den norske jazztrioen Maridalen henter navnet fra det naturskjønne dalføret som ligger rett nord for Oslo sentrum. Trioens debutalbum «Maridalen» som ble utgitt våren 2021 har mottatt strålende anmeldelser både nasjonalt og internasjonalt. Albumet ble blant annet ført opp på listene «Årets beste norske» i Aftenposten og «Jazz albums of the Year» i engelske MOJO Magazine.",
+      "25.mars 2022 slipper Maridalen sitt andre album «Bortenfor» på Jazzland Recordings. I likhet med debutplaten er også dette albumet spilt inn i den gamle trekirka i Maridalen, men denne gangen beveger trioen seg også litt bortenfor dalen - ned mot nattbelyste gater og gamle bygårder.",
+      "Med den varme og akustiske klangen fra kontrabass, trompet og treblås, skaper trioen sitt eget musikalske rom som tar tak i ulike stemningsøyeblikk og danner små fortellinger. Gjennom disse øyeblikkene blir lytteren invitert med på nye eventyr; fra et portrom i byen utforskes gamle og glemte steder gjennom bilder fra en film til en tur på en månesykkel i drømmeland.",
+      "Stemningene og fortellingene formidles gjennom et sterkt kollektiv der summen er større enn enkeltprestasjonene – der rommet, atmosfæren og spenningen blir en del av helheten. Lydbildet er intimt og transparent og gir både stort ansvar og mye rom for de tre musikerne å spille på. Trioen tar også i bruk små enkle pålegg fra piano, en gammel radio og kjøkkenredskaper, i tillegg til at de har fått med seg pedalsteel-gitarist Emil Brattested på to låter.",
+      "«Landets mest sjarmerende trio» 5/6<br /><em>– Arild R. Andersen, Aftenposten</em>",
+      "«Dette bør bli folkelytting»<br /><em>– Audun Vinger, DN</em>",
+      "«Bortenfor excels in catalyzing beauty» 4/5<br /><em>– Andy Cowan, MOJO magazine</em>",
+      "«Comforting beauty is the consistent, satisfied aim.»<br /><em>– Nick Hasted, Jazzwize</em>",
+      "Das Album der Woche, WDR (Germany)"
+    ],
+    "bands": {
+      "Maridalen": [
+        "Anders Hefre - saksofon",
+        "Jonas Kilmork Vemøy - trompet",
+        "Andreas Rødland Haga – kontrabass"
+      ]
+    },
+    "isFree": false,
+    "isPulsArtist": false,
+    "isByjubileumArtist": false,
+    "youtubeUrl": "https://www.youtube.com/embed/8yb-X6aq-aE",
+    "spotifyUri": "artist/4OQGQzQBxycDy5HlOGLAMJ?si=_1IZaiH6Q9CAaf29ROcchg",
+    "imageAttribution": ""
+  },
+  {
+    "venue": "TBA",
     "concertStartAt": "2022-07-02T13:00",
     "name": "365 dager i et år",
     "imageName": "365-dager-i-et-ar.jpg",
