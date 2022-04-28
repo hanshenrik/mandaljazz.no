@@ -227,6 +227,30 @@
     "imageAttribution": ""
   },
   {
+    "venue": "Piren Kulturrom",
+    "concertStartAt": "2022-07-02T12:00",
+    "name": "Schemes",
+    "imageName": "schemes.jpg",
+    "id": "schemes",
+    "paragraphs": [
+      "Dansk-norsk kvartett med utspring fra Jazzlinja i Trondheim.",
+      "Med hjerte for den intuitive skaperkraften ønsker de fire musikerne å utforske sin egen og hverandres musikalitet i rått samspill.",
+      "Dette gjør kvartetten både ved hjelp av egenskrevet materiale, men også ved å fokusere på spillerommets unike impulser og improvisasjonens tilstedeværelse.",
+      "Deres originale komposisjoner bærer preg av deres kjærlighet for den gamle jazztradisjonen, og musikken vil garantert by på noe for enhver smak!"
+    ],
+    "bands": {
+      "Schemes": [
+        "Brede Sørum – saxofon",
+        "Oliver Skou-Due – piano",
+        "Bendik Løland Lundsvoll – bass",
+        "Veslemøy Narvesen – trommer"
+      ]
+    },
+    "spotifyUri": "",
+    "youtubeUrl": "",
+    "isPulsArtist": false
+  },
+  {
     "venue": "Teltet",
     "concertStartAt": "2022-06-30T19:30",
     "name": "¡BangBang Watergun!",
