@@ -307,12 +307,13 @@
   {
     "venue": "Hestetroa",
     "concertStartAt": "2022-07-02T14:00",
-    "name": "Sørnorsk Ungdomsstorband",
-    "shortName": "SNUS",
-    "imageName": "snus.jpg",
+    "name": "SNUS vs. BUJO",
+    "imageName": "snus-bujo.jpg",
     "id": "snus",
     "paragraphs": [
-      "Mandaljazz + SNUS = Sant!",
+      "SNUS + BUJO = Sant!",
+      "Møt den nye generasjonen jazzmusikere fra både Sør- og Østlandet.",
+      "Sørnorsk Ungdomsstorband (SNUS) og Buskerud Ungdomssjazzorkester (BUJO) slår sine krefter sammen og leverer en leken og spennende konsert i Hestetroa.",
       "Sørnorsk Ungdomsstorband har praktisk talt blitt et husband på Mandaljazz, med årlige konserter på Hestetroa. Det skulle bare mangle, da vi egentlig skylder dem alt. Tre av festivalens grunnleggere (Eirik, Erik og Morten) hadde nemlig sin spede begynnelse som jazzelskende mennesker i SNUS. Nå har de blitt voksne, og drømmer om å holde arven i live.",
       "Sørnorsk Ungdomsstorband består av sabla begava musikere i alderen 16 til 20 år fra Agder, Vestfold og Telemark, som er regionen som Sørnorsk jazzsenter omfatter.",
       "Musikalsk leder er Tore Bråthen som til daglig underviser på Rytmisk linje på Institutt for musikk ved Universitetet i Agder. Han har med seg 3 hjelpeinstruktører som også spiller med i bandet. Repertoaret spenner over flere stilarter, fra swing-jazz til moderne funk.",
@@ -320,7 +321,8 @@
     ],
     "imageAttribution": "Foto: Birigit Fostervold",
     "bands": {
-      "SNUS": ["kommer…"]
+      "SNUS": ["kommer…"],
+      "BUJO": ["kommer…"]
     },
     "isFree": true,
     "isPulsArtist": false,
