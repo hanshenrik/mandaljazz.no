@@ -189,7 +189,7 @@
   },
   {
     "venue": "Teltet",
-    "concertStartAt": "2022-07-02T18:30",
+    "concertStartAt": "2022-07-02T19:00",
     "name": "Marthe Lea Band",
     "imageName": "marthe-lea-band.jpg",
     "id": "marthe-lea-band",
@@ -217,7 +217,7 @@
   },
   {
     "venue": "Elvesalen",
-    "concertStartAt": "2022-07-02T16:00",
+    "concertStartAt": "2022-07-02T17:00",
     "name": "Maridalen",
     "imageName": "maridalen.jpg",
     "id": "maridalen",
@@ -249,7 +249,7 @@
   },
   {
     "venue": "Piren Kulturrom",
-    "concertStartAt": "2022-07-02T12:00",
+    "concertStartAt": "2022-07-02T11:30",
     "name": "Schemes",
     "imageName": "schemes.jpg",
     "id": "schemes",
@@ -273,7 +273,7 @@
   },
   {
     "venue": "Teltet",
-    "concertStartAt": "2022-06-30T19:30",
+    "concertStartAt": "2022-06-30T20:00",
     "name": "¡BangBang Watergun!",
     "imageName": "bangbang-watergun.jpg",
     "id": "bangbang-watergun",
@@ -351,7 +351,7 @@
   },
   {
     "venue": "TBA",
-    "concertStartAt": "2022-06-30T21:00",
+    "concertStartAt": "2022-06-30T22:00",
     "name": "TBA",
     "shortName": "TBA*",
     "imageName": "tba.jpg",
@@ -392,21 +392,6 @@
   {
     "venue": "Elvesalen",
     "concertStartAt": "2022-07-01T16:00",
-    "name": "TBA",
-    "shortName": "TBA*",
-    "imageName": "tba.jpg",
-    "id": "tba",
-    "paragraphs": [],
-    "imageAttribution": "",
-    "bands": {},
-    "isFree": false,
-    "isPulsArtist": false,
-    "isByjubileumArtist": false,
-    "hideFromArtistList": true
-  },
-  {
-    "venue": "Piren Kulturrom",
-    "concertStartAt": "2022-07-02T11:00",
     "name": "TBA",
     "shortName": "TBA*",
     "imageName": "tba.jpg",
