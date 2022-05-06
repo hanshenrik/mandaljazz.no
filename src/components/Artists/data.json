@@ -216,7 +216,7 @@
     "isPulsArtist": false
   },
   {
-    "venue": "Elvesalen",
+    "venue": "Elvesalen, Buen",
     "concertStartAt": "2022-07-02T17:00",
     "name": "Maridalen",
     "imageName": "maridalen.jpg",
@@ -245,7 +245,8 @@
     "isByjubileumArtist": false,
     "youtubeUrl": "https://www.youtube.com/embed/8yb-X6aq-aE",
     "spotifyUri": "artist/4OQGQzQBxycDy5HlOGLAMJ?si=_1IZaiH6Q9CAaf29ROcchg",
-    "imageAttribution": ""
+    "imageAttribution": "",
+    "externalTicketUrl": "https://www.buenkulturhus.no/"
   },
   {
     "venue": "Piren Kulturrom",
@@ -390,7 +391,7 @@
     "hideFromArtistList": true
   },
   {
-    "venue": "Elvesalen",
+    "venue": "Elvesalen, Buen",
     "concertStartAt": "2022-07-01T16:00",
     "name": "TBA",
     "shortName": "TBA*",
@@ -402,6 +403,7 @@
     "isFree": false,
     "isPulsArtist": false,
     "isByjubileumArtist": false,
-    "hideFromArtistList": true
+    "hideFromArtistList": true,
+    "externalTicketUrl": "https://www.buenkulturhus.no/"
   }
 ]
