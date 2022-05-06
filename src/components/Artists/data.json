@@ -1,6 +1,27 @@
 [
   {
     "venue": "Teltet",
+    "concertStartAt": "2022-07-01T20:00",
+    "name": "Jenny Hval",
+    "imageName": "jenny-hval.jpg",
+    "id": "jenny-hval",
+    "paragraphs": [
+      "Kunstpop som drar oss med inn i den kollektive underbevisstheten.",
+      "Jenny Hval er kanskje den fremste representanten her til lands for det man gjerne kaller “kunstpop”. Musikken til tvedestrandingen er full av symbolikk og formeksperimenter – her finner man vampyrer, blackmetal-droner, kjærlighetspoesi. Hval maner fram et forhistorisk, nesten mytologisk mørke, og vever det sammen med kritiske skråblikk på tiden vi lever i, akkurat her og nå.",
+      "De siste årene har hun flørtet mer med popmusikk enn tidligere, men det er fortsatt milevis unna noe man finner på hitlistene. Hennes helt ferske album Classic Objects er hennes varmeste til dags dato – her aner man spor av både reggae og bossa nova. Hval har vært så dristig å kalle det sitt popalbum: Hver sang har vers og refreng, og lydbildet har et distinkt bandpreg. Albumet er utgitt på legendariske 4AD, plateselskapet som på 80-tallet nærmest egenhendig oppfant den alternative popmusikken.",
+      "Det er alltid morsomt å se Jenny Hval i konsertformat. En representant for bookingkomiteen har sett henne på festival i Spania, dansende rundt på scenen i vampyrdrakt. Andre ganger tar hun den helt ut – med bananas konseptuell scenografi, som flørter vel så mye med performancekunst som en tradisjonell konsert Til Mandaljazz tar hun med seg et fulltallig band, og man kan nok sette penger på at heller ikke det blir helt streit."
+    ],
+    "imageAttribution": "Jenny Berger Myhre",
+    "bands": {},
+    "isFree": false,
+    "isPulsArtist": false,
+    "isByjubileumArtist": false,
+    "hideFromArtistList": false,
+    "youtubeUrl": "https://www.youtube.com/embed/2i2oJJwgLTk",
+    "spotifyUri": "artist/5eerVxtb9lY9p6D7m89Bs7?si=ClTCzs0fQb65GFI0jDbXlA"
+  },
+  {
+    "venue": "Teltet",
     "concertStartAt": "2022-07-02T21:00",
     "name": "Steamdome",
     "imageName": "steamdome.jpg",
@@ -371,21 +392,6 @@
   {
     "venue": "Elvesalen",
     "concertStartAt": "2022-07-01T16:00",
-    "name": "TBA",
-    "shortName": "TBA*",
-    "imageName": "tba.jpg",
-    "id": "tba",
-    "paragraphs": [],
-    "imageAttribution": "",
-    "bands": {},
-    "isFree": false,
-    "isPulsArtist": false,
-    "isByjubileumArtist": false,
-    "hideFromArtistList": true
-  },
-  {
-    "venue": "Teltet",
-    "concertStartAt": "2022-07-01T20:00",
     "name": "TBA",
     "shortName": "TBA*",
     "imageName": "tba.jpg",
