@@ -3,10 +3,7 @@ import classNames from "classnames";
 import dayjs from "dayjs";
 import { capitalize } from "lodash";
 import { HashLink } from "react-router-hash-link";
-import {
-  // NavLink,
-  Link as ReactRouterLink,
-} from "react-router-dom";
+import { NavLink, Link as ReactRouterLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faClock,
@@ -16,12 +13,8 @@ import {
 
 import styles from "./Artist.css";
 import byjubileumImg from "../../assets/images/byjubileum.png";
-// import linkStyles from "../Links/Link.css";
-import {
-  PulsInfoBox,
-  Link,
-  // Button
-} from "../";
+import linkStyles from "../Links/Link.css";
+import { PulsInfoBox, Link, Button } from "../";
 
 const getImageUrl = (imageName) =>
   require(`../../assets/images/artists/${imageName}`);
@@ -53,7 +46,7 @@ class Artist extends React.Component {
       venue,
       link,
       video,
-      // externalTicketUrl,
+      externalTicketUrl,
       isFree,
       facebookVideoUrl,
       isByjubileumArtist,
@@ -177,37 +170,35 @@ class Artist extends React.Component {
                       </em>
                     ) : (
                       <>
-                        {/*
-                      {externalTicketUrl ? (
-                        <Button
-                          asLink
-                          linkProps={{
-                            href: externalTicketUrl,
-                          }}
-                        >
-                          Kjøp billett hos Buen
-                        </Button>
-                      ) : (
-                        <Button
-                          asLink
-                          linkProps={{
-                            href:
-                              "https://mandaljazz.ticketco.events/no/nb/e/mandaljazz-2022",
-                          }}
-                        >
-                          Kjøp billett
-                        </Button>
-                      )}
-                      <em style={{ fontSize: "0.9rem" }}>
-                        Du trenger ikke kjøpe enkeltbillett dersom du har
-                        festivalpass eller dagspass til{" "}
-                        {dayjs(concertStartAt).format("dddd")}.{" "}
-                        <NavLink className={linkStyles.Link} to="/billetter">
-                          Mer info om billetter
-                        </NavLink>
-                        .
-                      </em>
-                      */}
+                        {externalTicketUrl ? (
+                          <Button
+                            asLink
+                            linkProps={{
+                              href: externalTicketUrl,
+                            }}
+                          >
+                            Kjøp billett hos Buen
+                          </Button>
+                        ) : (
+                          <Button
+                            asLink
+                            linkProps={{
+                              href:
+                                "https://mandaljazz.ticketco.events/no/nb/e/mandaljazz-2022",
+                            }}
+                          >
+                            Kjøp billett
+                          </Button>
+                        )}
+                        <em style={{ fontSize: "0.9rem" }}>
+                          Du trenger ikke kjøpe enkeltbillett dersom du har
+                          festivalpass eller dagspass til{" "}
+                          {dayjs(concertStartAt).format("dddd")}.{" "}
+                          <NavLink className={linkStyles.Link} to="/billetter">
+                            Mer info om billetter
+                          </NavLink>
+                          .
+                        </em>
                       </>
                     )}
                   </div>
