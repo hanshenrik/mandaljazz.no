@@ -12,7 +12,17 @@
       "Det er alltid morsomt å se Jenny Hval i konsertformat. En representant for bookingkomiteen har sett henne på festival i Spania, dansende rundt på scenen i vampyrdrakt. Andre ganger tar hun den helt ut – med bananas konseptuell scenografi, som flørter vel så mye med performancekunst som en tradisjonell konsert Til Mandaljazz tar hun med seg et fulltallig band, og man kan nok sette penger på at heller ikke det blir helt streit."
     ],
     "imageAttribution": "Jenny Berger Myhre",
-    "bands": {},
+    "bands": {
+      "Medvirkende": [
+        "Jenny Hval",
+        "Håvard Reite Volden",
+        "Jenny Berger Myhre",
+        "Kyrre Geithus Laastad",
+        "Daniel Meyer Grønvold",
+        "Johan Erik Gustavson Lindvall",
+        "Linn Kristina Nystadnes"
+      ]
+    },
     "isFree": false,
     "isPulsArtist": false,
     "isByjubileumArtist": false,
