@@ -150,6 +150,35 @@
   },
   {
     "venue": "Teltet",
+    "concertStartAt": "2022-06-30T22:00",
+    "name": "Fra Det Onde",
+    "imageName": "fra-det-onde.png",
+    "id": "fra-det-onde",
+    "paragraphs": [
+      "Et toppa lag lager svart sabbat i skjæringspunktet fusion, progg og støy.",
+      "De store profetene sier at det finnes to krefter i mennesket: det gode og onde. For å være et helt menneske, trenger man å leve i harmoni med disse aspektene. Det onde må luftes ut, ikke undertrykkes.",
+      "Fra det onde – kvartetten som består av Mandal og Københavns babyansiktede mestertrompetist Erik Kimestad, kongerikets mest groovy trommeslager Olaf Olsen (Bigbang), den eminente jazzbassisten Rune Nergaard (Bushman´s Revenge) og effektmaker/tåkelegger/støypopguru Emil Nikolaisen (Serena-Maneesh) – finner altså sitt kreative overskudd i det mørke, skumle og potensielt destruktive som bor i oss alle.",
+      "Om de er satanister? Ikke som vi vet. Men den friflytende musikken deres, som minner om både Miles Davis' mest psykedeliske jazz fusion-fase og de mer jazza hjørnene av progrocken à la Soft Machine og Frank Zappa, gir lytteren følelsen av å ta del i et slags rituale. En svart sabbat, om du vil – heksenes hedenske messe.",
+      "Der rytmene til Nergaard og Olsen lokker en inn i transeaktige grooves, sørger Kimestads krakilske trompetspill og Nikolaisens trolske lydmanipulasjoner for at man aldri føler seg på helt trygg grunn. ",
+      "Konserten deres på Mandaljazz blir den andre (!) på norsk jord, noen sinne. La det onde skylle over deg og vaske deg ren."
+    ],
+    "imageAttribution": "Fin Serck-Hanssen",
+    "bands": {
+      "Fra det Onde": [
+        "Erik Kimestad (trompet)",
+        "Olaf Olsen (trommer)",
+        "Rune Nergaard (bass)",
+        "Emil Nikolaisen (gitar)"
+      ]
+    },
+    "spotifyUri": "artist/5Ev9KzkLwMcyv5J7vNLJGQ",
+    "isFree": false,
+    "isPulsArtist": false,
+    "isByjubileumArtist": false,
+    "hideFromArtistList": false
+  },
+  {
+    "venue": "Teltet",
     "concertStartAt": "2022-07-01T18:00",
     "shortName": "Akmee",
     "name": "Akmee – 100-årsjubileum",
@@ -359,35 +388,6 @@
     "isFree": true,
     "isPulsArtist": false,
     "isByjubileumArtist": true
-  },
-  {
-    "venue": "Teltet",
-    "concertStartAt": "2022-06-30T22:00",
-    "name": "Fra Det Onde",
-    "imageName": "fra-det-onde.png",
-    "id": "fra-det-onde",
-    "paragraphs": [
-      "Et toppa lag lager svart sabbat i skjæringspunktet fusion, progg og støy.",
-      "De store profetene sier at det finnes to krefter i mennesket: det gode og onde. For å være et helt menneske, trenger man å leve i harmoni med disse aspektene. Det onde må luftes ut, ikke undertrykkes.",
-      "Fra det onde – kvartetten som består av Mandal og Københavns babyansiktede mestertrompetist Erik Kimestad, kongerikets mest groovy trommeslager Olaf Olsen (Bigbang), den eminente jazzbassisten Rune Nergaard (Bushman´s Revenge) og effektmaker/tåkelegger/støypopguru Emil Nikolaisen (Serena-Maneesh) – finner altså sitt kreative overskudd i det mørke, skumle og potensielt destruktive som bor i oss alle.",
-      "Om de er satanister? Ikke som vi vet. Men den friflytende musikken deres, som minner om både Miles Davis' mest psykedeliske jazz fusion-fase og de mer jazza hjørnene av progrocken à la Soft Machine og Frank Zappa, gir lytteren følelsen av å ta del i et slags rituale. En svart sabbat, om du vil – heksenes hedenske messe.",
-      "Der rytmene til Nergaard og Olsen lokker en inn i transeaktige grooves, sørger Kimestads krakilske trompetspill og Nikolaisens trolske lydmanipulasjoner for at man aldri føler seg på helt trygg grunn. ",
-      "Konserten deres på Mandaljazz blir den andre (!) på norsk jord, noen sinne. La det onde skylle over deg og vaske deg ren."
-    ],
-    "imageAttribution": "Fin Serck-Hanssen",
-    "bands": {
-      "Fra det Onde": [
-        "Erik Kimestad (trompet)",
-        "Olaf Olsen (trommer)",
-        "Rune Nergaard (bass)",
-        "Emil Nikolaisen (gitar)"
-      ]
-    },
-    "spotifyUri": "artist/5Ev9KzkLwMcyv5J7vNLJGQ",
-    "isFree": false,
-    "isPulsArtist": false,
-    "isByjubileumArtist": false,
-    "hideFromArtistList": false
   },
   {
     "venue": "Lekebutikken",
