@@ -1,5 +1,5 @@
 import React from "react";
-// import SpotifyPlayer from "react-spotify-player";
+import SpotifyPlayer from "react-spotify-player";
 
 import matroser from "../../assets/images/profile/matroser.png";
 // import christmasJazzlaug from "../../assets/images/jazzlaug-julehatt.png";
@@ -22,9 +22,9 @@ const SplashPage = () => (
       </p>
     </header>
     <Artists />
-    {/* <div style={{ margin: "0 auto", maxWidth: "95%", width: "500px" }}>
-      <SpotifyPlayer uri="spotify:user:shenrik:playlist:3L0O7pHL2uLvlQV4qkiWnY" />
-    </div> */}
+    <div style={{ margin: "0 auto", maxWidth: "95%", width: "500px" }}>
+      <SpotifyPlayer uri="spotify:user:shenrik:playlist:707ekons2mCrUQ7cnBqUXM" />
+    </div>
   </div>
 );
 
