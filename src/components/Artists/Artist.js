@@ -19,6 +19,9 @@ import { PulsInfoBox, Link, Button } from "../";
 const getImageUrl = (imageName) =>
   require(`../../assets/images/artists/${imageName}`);
 
+const getSponsorImageUrl = (imageName) =>
+  require(`../../assets/images/sponsors/${imageName}`);
+
 class Artist extends React.Component {
   render() {
     const {
@@ -50,6 +53,7 @@ class Artist extends React.Component {
       isFree,
       facebookVideoUrl,
       isByjubileumArtist,
+      sponsors,
     } = artist;
     const style = isActive
       ? {}
@@ -252,6 +256,17 @@ class Artist extends React.Component {
                     className={styles.ByjubileumImg}
                   />
                 )}
+                <div className={styles.Sponsors}>
+                  <h4>Sponset av</h4>
+                  {sponsors &&
+                    sponsors.map(({ name, img }) => (
+                      <img
+                        src={getSponsorImageUrl(img)}
+                        alt={`Sponset av ${name}`}
+                        className={styles.SponsorImg}
+                      />
+                    ))}
+                </div>
               </div>
             </div>
             {vimeoId && (

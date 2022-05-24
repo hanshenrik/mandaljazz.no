@@ -384,7 +384,11 @@
     },
     "isFree": true,
     "isPulsArtist": false,
-    "isByjubileumArtist": true
+    "isByjubileumArtist": true,
+    "sponsors": [
+      { "name": "Husfliden", "img": "husfliden.png" },
+      { "name": "Tønnesen", "img": "tonnesen.png" }
+    ]
   },
   {
     "venue": "Hestetroa",

@@ -25,8 +25,10 @@ const JazzlaugsVennerPage = () => (
       <li>Aurebekk Gartneri</li>
       <li>Buen Kulturhus</li>
       <li>Neumann Bygg</li>
+      <li>Kjøkkensenteret Mandal</li>
       <li>NorEngros</li>
       <li>Nødings delikatesse</li>
+      <li>Maren AS</li>
       <li>Spangereid Bensin og Handel</li>
     </ul>
   </div>
