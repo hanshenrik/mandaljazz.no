@@ -116,9 +116,9 @@ class Program extends React.Component {
           ))}
           <div />
           <div />
-          <em style={{ fontSize: "12px", padding: "1rem", textAlign: "right" }}>
+          {/* <em style={{ fontSize: "12px", padding: "1rem", textAlign: "right" }}>
             *TBA = To Be Announced
-          </em>
+          </em> */}
         </SlideDown>
         {!isAlwaysOpen && this.renderToggleIsOpenButton()}
       </div>

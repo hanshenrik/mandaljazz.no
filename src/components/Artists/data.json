@@ -203,6 +203,27 @@
     "isByjubileumArtist": true
   },
   {
+    "venue": "Elvesalen, Buen",
+    "concertStartAt": "2022-07-01T16:00",
+    "name": "Impro Fauna",
+    "imageName": "impro-fauna.jpg",
+    "id": "impro-fauna",
+    "paragraphs": [
+      "Impro Fauna er et musikalsk bærekraft-prosjekt, med et mål om å skape fokus på alternative og “grønne” konsertopplevelser, samt å kjøpe skog tilbake til den danske natur. Når Impro Fauna tar konseptet sitt med til mandaljazz, vil en del av hver billettkostnad bli brukt til å plante ny skog.",
+      "Impro Fauna konsertene har det siste året hatt suksess med intime konserter på Huset i Hasserisgade (vår samarbeidspartner), 1000fryd, Langes Keramik og Center for Dansk Jazzhistorie. Disse konsertene har blitt arrangert så bæredyktig som mulig, uten unødvendig forbruk av elektrisitet og uten fysisk reklame i form av trykt materiale. Det ble spart på lys og lydanlegg, og forsterkere har kun blitt tatt i bruk når det har vært helt nødvendig, for eksempel for å inkludere blant annet elektrisk gitar og harpe.",
+      "Musikalsk er konseptet basert på impro og jam-sessions, og det blir spennende å sette Impro Fauna-ensemblet sammen med et par av musikerne som spiller i andre band under årets mandaljazz. Hvem det blir kommer etterhvert!",
+      "Den nytenkende og bærekraftige måten å arrangere konserter på gjorde at konseptet vant “årets konsertopplevelse” fra JazzDanmark i 2021.",
+      "Impro Fauna er kuratert av Erik Lunde Michaelsen, som er forperson for Meutiviti (en forening for jazz og improvisert musikk i Aalborg)."
+    ],
+    "imageAttribution": "",
+    "bands": {},
+    "isFree": false,
+    "isPulsArtist": true,
+    "isByjubileumArtist": false,
+    "hideFromArtistList": false,
+    "externalTicketUrl": "https://www.buenkulturhus.no/"
+  },
+  {
     "venue": "Sjøboden",
     "concertStartAt": "2022-07-01T23:30",
     "name": "The Big YES!",
@@ -413,21 +434,5 @@
     "isPulsArtist": false,
     "isByjubileumArtist": true,
     "hideFromArtistList": true
-  },
-  {
-    "venue": "Elvesalen, Buen",
-    "concertStartAt": "2022-07-01T16:00",
-    "name": "TBA",
-    "shortName": "TBA*",
-    "imageName": "tba.jpg",
-    "id": "tba",
-    "paragraphs": [],
-    "imageAttribution": "",
-    "bands": {},
-    "isFree": false,
-    "isPulsArtist": false,
-    "isByjubileumArtist": false,
-    "hideFromArtistList": true,
-    "externalTicketUrl": "https://www.buenkulturhus.no/"
   }
 ]
