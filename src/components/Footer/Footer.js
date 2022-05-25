@@ -32,7 +32,7 @@ import larsenOptikkImg from "../../assets/images/sponsors/larsen-optikk.png";
 import veidekkeImg from "../../assets/images/sponsors/veidekke.jpg";
 import egelandRorImg from "../../assets/images/sponsors/egeland-ror.png";
 // import mandalKjoleserviceImg from "../../assets/images/sponsors/mandal-kjoleservice.svg";
-// import jobzoneImg from "../../assets/images/sponsors/jobzone.gif";
+import jobzoneImg from "../../assets/images/sponsors/jobzone.gif";
 import mandalsImg from "../../assets/images/sponsors/mandals.jpg";
 // import altiImg from "../../assets/images/sponsors/alti.png";
 import brekkeStrandImg from "../../assets/images/sponsors/brekke-strand.png";
@@ -138,17 +138,17 @@ const Footer = () => {
         <Link href="https://www.sjograf.no/" title="Sjøsanden Grafiske">
           <img src={sjosandenGrafiskeImg} alt="Sjøsanden Grafiske" />
         </Link>
+        <Link
+          href="https://jobzone.no/avdelinger/mandal/"
+          title="Jobzone Mandal"
+        >
+          <img src={jobzoneImg} alt="Jobzone Mandal" />
+        </Link>
         {/* <Link href="https://www.hansaborg.no/" title="Hansa Borg Bryggerier">
           <img src={hansaBorgImg} alt="Hansa Borg Bryggerier" />
         </Link> */}
         {/* <Link href="https://www.mandalks.no/" title="Mandal Kjøleservice">
           <img src={mandalKjoleserviceImg} alt="Mandal Kjøleservice" />
-        </Link> */}
-        {/* <Link
-          href="https://jobzone.no/avdelinger/mandal/"
-          title="Jobzone Mandal"
-        >
-          <img src={jobzoneImg} alt="Jobzone Mandal" />
         </Link> */}
         {/* <Link href="https://alti.no/mandal/" title="Alti Mandal">
           <img src={altiImg} alt="Alti Mandal" />
