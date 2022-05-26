@@ -40,7 +40,7 @@
 }
 
 :local(.Logo) {
-  width: 550px;
+  width: 220px;
   max-width: 100%;
   animation: 13s ease-in-out 0s infinite alternate pulsating;
 }

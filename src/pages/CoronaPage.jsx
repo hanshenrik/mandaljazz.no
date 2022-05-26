@@ -2,15 +2,15 @@ import React from "react";
 
 import { CoronaInfoBox, ScrollToTopOnMount } from "../components";
 import styles from "./CoronaPage.css";
-import smokeImg from "../assets/images/profile/smoke.png";
+import brostein from "../assets/images/profile/brostein.png";
 
 const CoronaPage = () => (
   <div className={styles.CoronaPage}>
     <ScrollToTopOnMount />
     <img
-      src={smokeImg}
+      src={brostein}
       alt="Troll"
-      style={{ margin: "auto", maxWidth: "400px", width: "100%" }}
+      style={{ margin: "auto", maxWidth: "270px", width: "100%" }}
     />
     <h1>Koronainfo</h1>
     <h3>Det blir Mandaljazz i sommer!</h3>

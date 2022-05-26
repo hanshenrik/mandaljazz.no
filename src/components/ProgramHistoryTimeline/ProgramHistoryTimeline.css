@@ -4,6 +4,8 @@
   align-items: center;
   flex-direction: column;
   padding: 2rem;
+  max-width: 1240px;
+  margin: auto;
 }
 :local(.ProgramHistoryTimeline p) {
   font-family: "Montserrat", sans-serif;
@@ -14,8 +16,13 @@
 
 :local(.Event) {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: 1fr;
   grid-gap: 2rem;
+}
+@media screen and (min-width: 720px) {
+  :local(.Event) {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 :local(.Event h1) {

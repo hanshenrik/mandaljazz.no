@@ -23,6 +23,7 @@ import {
   ByjubileumPage,
 } from "./pages";
 import CoronaPage from "./pages/CoronaPage";
+import kulturfabrikken from "./assets/images/profile/kulturfabrikken.png";
 
 class App extends React.Component {
   render() {
@@ -31,7 +32,7 @@ class App extends React.Component {
         <GoogleAnalyticsListener>
           <Route
             render={({ location }) => (
-              <>
+              <div style={{ display: "flex", flexDirection: "column" }}>
                 {!["stavanger", "kristiansand", "gobi"].includes(
                   location.pathname.replace(/\//g, "")
                 ) && (
@@ -118,6 +119,16 @@ class App extends React.Component {
                     }
                   />
                 </Switch>
+                <img
+                  src={kulturfabrikken}
+                  alt="Kulturfabrikken"
+                  style={{
+                    width: "100%",
+                    maxWidth: "375px",
+                    margin: "3rem 0",
+                    placeSelf: "end",
+                  }}
+                />
                 {![
                   "jazzlaugs-venner",
                   "stavanger",
@@ -127,7 +138,7 @@ class App extends React.Component {
                 {!["billetter"].includes(
                   location.pathname.replace(/\//g, "")
                 ) && <BuyTicketButton />}
-              </>
+              </div>
             )}
           />
         </GoogleAnalyticsListener>

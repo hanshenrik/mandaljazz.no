@@ -9,6 +9,10 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import classNames from "classnames";
 
+import { Link } from "../../components";
+import styles from "./Footer.css";
+
+// Sponsor images
 import kulturraadetImg from "../../assets/images/sponsors/kulturraadet.png";
 import lindesnesKommuneImg from "../../assets/images/sponsors/lindesnes-kommune.png";
 import nordiskKulturfondImg from "../../assets/images/sponsors/nordisk-kulturfond.jpg";
@@ -23,7 +27,6 @@ import jazzlaugsVennerImg from "../../assets/images/sponsors/jazzlaugs-venner.pn
 import nostedImg from "../../assets/images/sponsors/nosted.png";
 import kjobmandsgaardenImg from "../../assets/images/sponsors/kjobmandsgaarden.png";
 // import norskJazzforumImg from "../../assets/images/sponsors/norsk-jazzforum.svg";
-import altblirjazzImg from "../../assets/images/profile/altblirjazz.png";
 // import pulsLogoImg from "../../assets/images/sponsors/nordisk-kulturfond-puls-logo-black.png";
 import gullsmedDanielsenImg from "../../assets/images/sponsors/gullsmed-danielsen.png";
 // import norEngrosImg from "../../assets/images/sponsors/norengros.svg";
@@ -45,17 +48,10 @@ import revisorsenteretMandalImg from "../../assets/images/sponsors/revisorsenter
 import mandalHotelImg from "../../assets/images/sponsors/mandal-hotel.png";
 import marnarBrukImg from "../../assets/images/sponsors/marnar-bruk.png";
 // import heimtunByggImg from "../../assets/images/sponsors/heimtun-bygg.jpg";
-import { Link } from "../../components";
-import styles from "./Footer.css";
 
 const Footer = () => {
   return (
     <footer className={styles.Footer}>
-      <img
-        src={altblirjazzImg}
-        alt="Sea bed"
-        style={{ width: "90%", maxWidth: "800px" }}
-      />
       <h1 style={{ color: "var(--primary)" }}>Hovedsponsor 2022</h1>
       <div className={classNames(styles.Sponsors, "large")}>
         <Link href="https://www.sor.no/" title="Sparebanken Sør">
