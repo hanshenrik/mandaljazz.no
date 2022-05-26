@@ -8,6 +8,7 @@ import {
   Link,
 } from "../../components";
 import styles from "./PracticalInfoPage.css";
+import brostein from "../../assets/images/profile/brostein.png";
 
 const Map = ReactMapboxGl({
   accessToken:
@@ -48,6 +49,15 @@ const PracticalInfoPage = () => (
     </p>
     <div className={styles.TextWidth}>
       <TravelInfo />
+      <img
+        src={brostein}
+        alt="Brostein"
+        style={{
+          width: "100%",
+          margin: "3rem 0",
+          placeSelf: "center",
+        }}
+      />
       <AccomodationInfo />
       <h1>Universell utforming</h1>
       <p>

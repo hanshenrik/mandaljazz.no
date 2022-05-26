@@ -9,6 +9,8 @@
 :local(.TextWidth) {
   max-width: 720px;
   margin: auto;
+  display: flex;
+  flex-direction: column;
 }
 
 @media screen and (min-width: 1200px) {

@@ -7,11 +7,11 @@
   --yellow: #d4ca6f;
   --lightyellow: #fdf9d5;
 
-  --primary: #318bb4;
-  --secondary: #f98e11;
-  --tertiary: #618c06;
-  --quadary: #fac301;
-  --superlightquadary: #fce180;
+  --primary: #318bb4; /* Blå */
+  --secondary: #f98e11; /* Oransje */
+  --tertiary: #618c06; /* Grønn */
+  --quadary: #fac301; /* Gul */
+  --superlightquadary: #fce180; /* Lysegul */
 
   --white: #fffffe;
   --white-transparent-heavy: rgba(255, 255, 255, 0.9);
