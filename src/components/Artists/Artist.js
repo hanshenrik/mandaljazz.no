@@ -256,17 +256,18 @@ class Artist extends React.Component {
                     className={styles.ByjubileumImg}
                   />
                 )}
-                <div className={styles.Sponsors}>
-                  <h4>Sponset av</h4>
-                  {sponsors &&
-                    sponsors.map(({ name, img }) => (
+                {sponsors && (
+                  <div className={styles.Sponsors}>
+                    <h4>Sponset av</h4>
+                    {sponsors.map(({ name, img }) => (
                       <img
                         src={getSponsorImageUrl(img)}
                         alt={`Sponset av ${name}`}
                         className={styles.SponsorImg}
                       />
                     ))}
-                </div>
+                  </div>
+                )}
               </div>
             </div>
             {vimeoId && (
