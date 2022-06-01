@@ -76,7 +76,8 @@
   margin: auto;
   border-radius: 8px;
 }
-:local(.Artist img.ByjubileumImg), :local(.Artist img.SponsorImg) {
+:local(.Artist img.ByjubileumImg),
+:local(.Artist img.SponsorImg) {
   min-width: auto;
   width: 150px;
   padding: 1rem;
@@ -168,9 +169,4 @@
   :local(.ArtistInfoGrid) {
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   }
-}
-
-:local(.Sponsors) {
-  display: grid;
-  gap: 1rem;
 }

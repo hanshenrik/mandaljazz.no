@@ -257,15 +257,23 @@ class Artist extends React.Component {
                   />
                 )}
                 {sponsors && (
-                  <div className={styles.Sponsors}>
-                    <h4>Sponset av</h4>
-                    {sponsors.map(({ name, img }) => (
-                      <img
-                        src={getSponsorImageUrl(img)}
-                        alt={`Sponset av ${name}`}
-                        className={styles.SponsorImg}
-                      />
-                    ))}
+                  <div>
+                    <h4>Disse spanderer billetten</h4>
+                    <ul style={{ paddingLeft: sponsors[0].img ? 0 : "auto" }}>
+                      {sponsors.map(({ name, img }) =>
+                        img ? (
+                          <li key={name} style={{ listStyleType: "none" }}>
+                            <img
+                              src={getSponsorImageUrl(img)}
+                              alt={`Sponset av ${name}`}
+                              className={styles.SponsorImg}
+                            />
+                          </li>
+                        ) : (
+                          <li>{name}</li>
+                        )
+                      )}
+                    </ul>
                   </div>
                 )}
               </div>
