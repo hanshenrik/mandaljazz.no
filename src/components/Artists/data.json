@@ -23,10 +23,6 @@
         "Linn Kristina Nystadnes"
       ]
     },
-    "isFree": false,
-    "isPulsArtist": false,
-    "isByjubileumArtist": false,
-    "hideFromArtistList": false,
     "youtubeUrl": "https://www.youtube.com/embed/2i2oJJwgLTk",
     "spotifyUri": "artist/5eerVxtb9lY9p6D7m89Bs7?si=ClTCzs0fQb65GFI0jDbXlA"
   },
@@ -56,10 +52,7 @@
     },
     "imageAttribution": "Foto: Marte Amanda Vannebo",
     "spotifyUri": "album/7mRD6WVJDW44tFTLzMZpV9?si=3CHLf5ChSCqiH5LS_pU2mA",
-    "youtubeUrl": "https://www.youtube.com/embed/i0YZKRx-fKA",
-    "isFree": false,
-    "isPulsArtist": false,
-    "isByjubileumArtist": false
+    "youtubeUrl": "https://www.youtube.com/embed/i0YZKRx-fKA"
   },
   {
     "venue": "Uranienborg Parkeringshus",
@@ -101,7 +94,6 @@
     "facebookVideoUrl": "https://www.facebook.com/watch/?v=1977640115731127",
     "video": "stein-austrud.mp4",
     "isFree": true,
-    "isPulsArtist": false,
     "isByjubileumArtist": true,
     "sponsors": [
       { "name": "Mandaljazz" },
@@ -191,11 +183,7 @@
         "Emil Nikolaisen (gitar)"
       ]
     },
-    "spotifyUri": "artist/5Ev9KzkLwMcyv5J7vNLJGQ",
-    "isFree": false,
-    "isPulsArtist": false,
-    "isByjubileumArtist": false,
-    "hideFromArtistList": false
+    "spotifyUri": "artist/5Ev9KzkLwMcyv5J7vNLJGQ"
   },
   {
     "venue": "Teltet",
@@ -219,7 +207,6 @@
     },
     "spotifyUri": "artist/3NTQ9NsR5pl0dHiEuJk1NH?si=QD8e4sHCT8iOma1veSumtQ",
     "youtubeUrl": "https://www.youtube.com/embed/wgeW6sOrJ8k",
-    "isPulsArtist": false,
     "isByjubileumArtist": true
   },
   {
@@ -237,10 +224,7 @@
     ],
     "imageAttribution": "",
     "bands": {},
-    "isFree": false,
     "isPulsArtist": true,
-    "isByjubileumArtist": false,
-    "hideFromArtistList": false,
     "externalTicketUrl": "https://www.buenkulturhus.no/"
   },
   {
@@ -292,8 +276,7 @@
       ]
     },
     "spotifyUri": "artist/1Xz9eflMsRN7FeoN7rMQKJ?si=IkmB39piS1qla_ouzMENCA",
-    "youtubeUrl": "https://www.youtube.com/embed/nppPVRjzU2Y",
-    "isPulsArtist": false
+    "youtubeUrl": "https://www.youtube.com/embed/nppPVRjzU2Y"
   },
   {
     "venue": "Elvesalen, Buen",
@@ -320,9 +303,6 @@
         "Andreas Rødland Haga – kontrabass"
       ]
     },
-    "isFree": false,
-    "isPulsArtist": false,
-    "isByjubileumArtist": false,
     "youtubeUrl": "https://www.youtube.com/embed/8yb-X6aq-aE",
     "spotifyUri": "artist/4OQGQzQBxycDy5HlOGLAMJ?si=_1IZaiH6Q9CAaf29ROcchg",
     "imageAttribution": "",
@@ -347,10 +327,7 @@
         "Bendik Løland Lundsvoll – bass",
         "Veslemøy Narvesen – trommer"
       ]
-    },
-    "spotifyUri": "",
-    "youtubeUrl": "",
-    "isPulsArtist": false
+    }
   },
   {
     "venue": "Teltet",
@@ -375,9 +352,6 @@
         "Sigmund Vestrheim – Drums"
       ]
     },
-    "isFree": false,
-    "isPulsArtist": false,
-    "isByjubileumArtist": false,
     "youtubeUrl": "https://www.youtube.com/embed/9e8QXLMvm8w",
     "spotifyUri": "artist/2grhe2zaWXIncv3px0CwrJ?si=_ZjoEdShQ6uqvHYMKMc_Vw",
     "imageAttribution": "Foto: Martin Bremnes"
@@ -403,7 +377,6 @@
       ]
     },
     "isFree": true,
-    "isPulsArtist": false,
     "isByjubileumArtist": true,
     "sponsors": [
       { "name": "Husfliden", "img": "husfliden.png" },
@@ -431,7 +404,6 @@
       "BUJO": ["kommer…"]
     },
     "isFree": true,
-    "isPulsArtist": false,
     "isByjubileumArtist": true
   },
   {
@@ -455,7 +427,6 @@
       ]
     },
     "isFree": true,
-    "isPulsArtist": false,
     "isByjubileumArtist": true,
     "hideFromArtistList": true
   }
