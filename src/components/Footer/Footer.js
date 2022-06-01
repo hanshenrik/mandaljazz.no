@@ -48,6 +48,7 @@ import revisorsenteretMandalImg from "../../assets/images/sponsors/revisorsenter
 import mandalHotelImg from "../../assets/images/sponsors/mandal-hotel.png";
 import marnarBrukImg from "../../assets/images/sponsors/marnar-bruk.png";
 // import heimtunByggImg from "../../assets/images/sponsors/heimtun-bygg.jpg";
+import enokTotal from "../../assets/images/sponsors/enok-total.png";
 
 const Footer = () => {
   return (
@@ -139,6 +140,9 @@ const Footer = () => {
           title="Jobzone Mandal"
         >
           <img src={jobzoneImg} alt="Jobzone Mandal" />
+        </Link>
+        <Link href="https://www.enoktotal.no/" title="Enøk Total">
+          <img src={enokTotal} alt="Enøk Total" />
         </Link>
         {/* <Link href="https://www.hansaborg.no/" title="Hansa Borg Bryggerier">
           <img src={hansaBorgImg} alt="Hansa Borg Bryggerier" />
