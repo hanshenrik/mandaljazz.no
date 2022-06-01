@@ -99,7 +99,7 @@ class Program extends React.Component {
                       >
                         <span className={styles.ConcertInfo}>
                           {dayjs(artist.concertStartAt).format("HH:mm")} @{" "}
-                          {artist.venue}
+                          {artist.shortVenue || artist.venue}
                         </span>
                         <span className={styles.ArtistName}>
                           {this.renderArtistText(artist)}
