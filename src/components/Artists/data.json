@@ -62,9 +62,11 @@
     "isByjubileumArtist": false
   },
   {
-    "venue": "TBA",
+    "venue": "Uranienborg Parkeringshus",
+    "shortVenue": "Uranienborg P",
     "concertStartAt": "2022-06-30T18:00",
-    "name": "Stein Austrud",
+    "name": "Stein Austrud Ensemble",
+    "shortName": "Stein Austrud",
     "imageName": "stein-austrud.png",
     "id": "stein-austrud",
     "paragraphs": [
@@ -80,16 +82,34 @@
     ],
     "bands": {
       "Medvirkende": [
-        "Stein Austrud",
+        "Stein Austrud - Piano, Synthersizere, Lyddesign, Melodisk Perkusjon og Vokal ",
         "Mandal Kammerkor",
-        "++ flere annonseres etter hvert…"
+        "Sangere fra Ballastbrygga boyband, Showkoret & F.o.s.s.",
+        "Kristian Tybakken - Trommer & Perkusjon",
+        "Hildegunn Øiseth - Bukkehorn & Trompet ",
+        "Ingor Ante Ailu Gaup - Joik & Strupesang ",
+        "Kjell Åge Stoveland - Bratsj",
+        "Gard Nergaard - Fele",
+        "Alvina Herbinger Rygne - Fele",
+        "Silje Nordheim - Performance danser ",
+        "Emil Austrud - Perkusjon & Keyboard",
+        "Emanuel Austrud - Koshi",
+        "Lucas Austrud - Kosho & Sang"
       ]
     },
     "spotifyUri": "artist/17N4KypjcU7AjNE5aSRaKp?si=5BjSlGlNTlGz_9kujSPB4w",
     "facebookVideoUrl": "https://www.facebook.com/watch/?v=1977640115731127",
+    "video": "stein-austrud.mp4",
     "isFree": true,
     "isPulsArtist": false,
-    "isByjubileumArtist": true
+    "isByjubileumArtist": true,
+    "sponsors": [
+      { "name": "Mandaljazz" },
+      { "name": "Stein Austrud" },
+      { "name": "Jubileumskomiteen" },
+      { "name": "Mandal Parkering" },
+      { "name": "...og flere" }
+    ]
   },
   {
     "venue": "Teltet",
