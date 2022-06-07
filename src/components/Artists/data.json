@@ -55,8 +55,8 @@
     "youtubeUrl": "https://www.youtube.com/embed/i0YZKRx-fKA"
   },
   {
-    "venue": "TBA",
-    "shortVenue": "TBA",
+    "venue": "Uranienborg Parkeringshus",
+    "shortVenue": "Uranienborg P",
     "concertStartAt": "2022-06-30T18:00",
     "name": "Stein Austrud Ensemble",
     "shortName": "Stein Austrud",
@@ -90,9 +90,10 @@
         "Lucas Austrud - Kosho & Sang"
       ]
     },
-    "spotifyUri": "artist/17N4KypjcU7AjNE5aSRaKp?si=5BjSlGlNTlGz_9kujSPB4w",
-    "facebookVideoUrl": "https://www.facebook.com/watch/?v=1977640115731127",
+    "spotifyUri": "album/1uROPcrEJOsWLx4nopixyA?si=lft7biJzRtidwy_1lWXEDw",
+    "video": "stein-austrud.mp4",
     "isFree": true,
+    "reserveFreeTicket": true,
     "isByjubileumArtist": true,
     "sponsors": [
       { "name": "Mandaljazz" },
