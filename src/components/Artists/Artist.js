@@ -22,6 +22,66 @@ const getImageUrl = (imageName) =>
 const getSponsorImageUrl = (imageName) =>
   require(`../../assets/images/sponsors/${imageName}`);
 
+const TicketButton = ({
+  concertStartAt,
+  isFree,
+  reserveFreeTicket,
+  externalTicketUrl,
+}) => {
+  if (reserveFreeTicket) {
+    return (
+      <>
+        <Button
+          asLink
+          linkProps={{
+            href: "https://mandaljazz.ticketco.events/no/nb/e/mandaljazz-2022",
+          }}
+        >
+          Reserver gratis plass
+        </Button>
+        <em style={{ fontSize: "1rem", margin: "0.5rem 0", display: "block" }}>
+          Konserten er gratis, men du må reservere plass.
+        </em>
+      </>
+    );
+  } else if (isFree) {
+    return <em style={{ fontSize: "0.9rem" }}>Konserten er gratis!</em>;
+  } else {
+    return (
+      <>
+        {externalTicketUrl ? (
+          <Button
+            asLink
+            linkProps={{
+              href: externalTicketUrl,
+            }}
+          >
+            Kjøp billett hos Buen
+          </Button>
+        ) : (
+          <Button
+            asLink
+            linkProps={{
+              href:
+                "https://mandaljazz.ticketco.events/no/nb/e/mandaljazz-2022",
+            }}
+          >
+            Kjøp billett
+          </Button>
+        )}
+        <em style={{ fontSize: "0.9rem" }}>
+          Du trenger ikke kjøpe enkeltbillett dersom du har festivalpass eller
+          dagspass til {dayjs(concertStartAt).format("dddd")}.{" "}
+          <NavLink className={linkStyles.Link} to="/billetter">
+            Mer info om billetter
+          </NavLink>
+          .
+        </em>
+      </>
+    );
+  }
+};
+
 class Artist extends React.Component {
   render() {
     const {
@@ -51,6 +111,7 @@ class Artist extends React.Component {
       video,
       externalTicketUrl,
       isFree,
+      reserveFreeTicket,
       facebookVideoUrl,
       isByjubileumArtist,
       sponsors,
@@ -167,44 +228,13 @@ class Artist extends React.Component {
                   )}
                 </div>
                 {
-                  <div style={{ margin: "2rem 1rem" }}>
-                    {isFree ? (
-                      <em style={{ fontSize: "0.9rem" }}>
-                        Konserten er gratis!
-                      </em>
-                    ) : (
-                      <>
-                        {externalTicketUrl ? (
-                          <Button
-                            asLink
-                            linkProps={{
-                              href: externalTicketUrl,
-                            }}
-                          >
-                            Kjøp billett hos Buen
-                          </Button>
-                        ) : (
-                          <Button
-                            asLink
-                            linkProps={{
-                              href:
-                                "https://mandaljazz.ticketco.events/no/nb/e/mandaljazz-2022",
-                            }}
-                          >
-                            Kjøp billett
-                          </Button>
-                        )}
-                        <em style={{ fontSize: "0.9rem" }}>
-                          Du trenger ikke kjøpe enkeltbillett dersom du har
-                          festivalpass eller dagspass til{" "}
-                          {dayjs(concertStartAt).format("dddd")}.{" "}
-                          <NavLink className={linkStyles.Link} to="/billetter">
-                            Mer info om billetter
-                          </NavLink>
-                          .
-                        </em>
-                      </>
-                    )}
+                  <div style={{ margin: "2rem 0" }}>
+                    <TicketButton
+                      isFree={isFree}
+                      externalTicketUrl={externalTicketUrl}
+                      reserveFreeTicket={reserveFreeTicket}
+                      concertStartAt={concertStartAt}
+                    />
                   </div>
                 }
                 {bands && (

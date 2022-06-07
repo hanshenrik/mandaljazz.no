@@ -358,8 +358,39 @@
   },
   {
     "venue": "Lekebutikken",
+    "concertStartAt": "2022-07-01T13:00",
+    "name": "365 dager i et år (fredag)",
+    "shortName": "365 dager i et år",
+    "imageName": "365-dager-i-et-ar.jpg",
+    "id": "365-dager-i-et-ar-friday",
+    "paragraphs": [
+      "Bli med Mari og Nicolai på en magisk tur gjennom naturens fire årstider!",
+      "«365 dager i et år» er en barneforestilling og et kunstnermøte mellom steppdans og elgitar. I forestillingen vil vi spille og danse oss gjennom et helt år med årstider. Det blir steppdans, musikk, fortellerteater, rytmer og interaktive deler der publikum inviteres til å synge og lage rytmer sammen med utøverne.",
+      "Temaet i forestillingen er natur - og mennesket i forhold til naturen. Forhåpentligvis blir barna nysgjerrige på naturen, på endringene som skjer, på lydene naturen lager og på hvordan man kan lage kunst inspirert av naturen.",
+      "Vi skal også lære litt sammen, som for eksempel når man kan høre gjøken si «ko-ko» som i sangen «Jeg gikk en tur på stien», eller når snøen pleier å komme, hva det betyr at fugler «trekker» sørover og mye mer.",
+      "«365 dager i et år» er laget og produsert av mandalitten Mari Marie Ø. Nyvoll. Før forestillingen spilles hos oss på mandaljazz, skal den ut på turné i Den Kulturelle Skolesekken i Kristiansand.",
+      "Forestillingen er anbefalt for barn i alderen 4 til 8 år, men kan også fint sees av barn fra 1 til 100. Vi håper flest mulig har lyst til å komme på en gøyal forestilling for å utforske og leke med årstidene!"
+    ],
+    "bands": {
+      "365 dager i et år": [
+        "Nicolai Gill Johannessen – gitar",
+        "Mari Marie Øinæs Nyvoll – steppdans"
+      ]
+    },
+    "isFree": true,
+    "reserveFreeTicket": true,
+    "isByjubileumArtist": true,
+    "sponsors": [
+      { "name": "Husfliden", "img": "husfliden.png" },
+      { "name": "Tønnesen", "img": "tonnesen.png" },
+      { "name": "Lille Danske", "img": "lille-danske.jpg" }
+    ]
+  },
+  {
+    "venue": "Lekebutikken",
     "concertStartAt": "2022-07-02T13:00",
-    "name": "365 dager i et år",
+    "name": "365 dager i et år (lørdag)",
+    "shortName": "365 dager i et år",
     "imageName": "365-dager-i-et-ar.jpg",
     "id": "365-dager-i-et-ar",
     "paragraphs": [
@@ -377,10 +408,12 @@
       ]
     },
     "isFree": true,
+    "reserveFreeTicket": true,
     "isByjubileumArtist": true,
     "sponsors": [
       { "name": "Husfliden", "img": "husfliden.png" },
-      { "name": "Tønnesen", "img": "tonnesen.png" }
+      { "name": "Tønnesen", "img": "tonnesen.png" },
+      { "name": "Lille Danske", "img": "lille-danske.jpg" }
     ]
   },
   {
@@ -405,29 +438,5 @@
     },
     "isFree": true,
     "isByjubileumArtist": true
-  },
-  {
-    "venue": "Lekebutikken",
-    "concertStartAt": "2022-07-01T13:00",
-    "name": "365 dager i et år",
-    "imageName": "365-dager-i-et-ar.jpg",
-    "id": "365-dager-i-et-ar",
-    "paragraphs": [
-      "Bli med Mari og Nicolai på en magisk tur gjennom naturens fire årstider!",
-      "«365 dager i et år» er en barneforestilling og et kunstnermøte mellom steppdans og elgitar. I forestillingen vil vi spille og danse oss gjennom et helt år med årstider. Det blir steppdans, musikk, fortellerteater, rytmer og interaktive deler der publikum inviteres til å synge og lage rytmer sammen med utøverne.",
-      "Temaet i forestillingen er natur - og mennesket i forhold til naturen. Forhåpentligvis blir barna nysgjerrige på naturen, på endringene som skjer, på lydene naturen lager og på hvordan man kan lage kunst inspirert av naturen.",
-      "Vi skal også lære litt sammen, som for eksempel når man kan høre gjøken si «ko-ko» som i sangen «Jeg gikk en tur på stien», eller når snøen pleier å komme, hva det betyr at fugler «trekker» sørover og mye mer.",
-      "«365 dager i et år» er laget og produsert av mandalitten Mari Marie Ø. Nyvoll. Før forestillingen spilles hos oss på mandaljazz, skal den ut på turné i Den Kulturelle Skolesekken i Kristiansand.",
-      "Forestillingen er anbefalt for barn i alderen 4 til 8 år, men kan også fint sees av barn fra 1 til 100. Vi håper flest mulig har lyst til å komme på en gøyal forestilling for å utforske og leke med årstidene!"
-    ],
-    "bands": {
-      "365 dager i et år": [
-        "Nicolai Gill Johannessen – gitar",
-        "Mari Marie Øinæs Nyvoll – steppdans"
-      ]
-    },
-    "isFree": true,
-    "isByjubileumArtist": true,
-    "hideFromArtistList": true
   }
 ]
