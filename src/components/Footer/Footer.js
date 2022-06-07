@@ -47,6 +47,7 @@ import sorlandetsElektroImg from "../../assets/images/sponsors/sorlandets-elektr
 import revisorsenteretMandalImg from "../../assets/images/sponsors/revisorsenteret-mandal.png";
 import mandalHotelImg from "../../assets/images/sponsors/mandal-hotel.png";
 import marnarBrukImg from "../../assets/images/sponsors/marnar-bruk.png";
+import mandalMusikkforeningImg from "../../assets/images/sponsors/mandal-musikkforening.jpg";
 // import heimtunByggImg from "../../assets/images/sponsors/heimtun-bygg.jpg";
 import enokTotal from "../../assets/images/sponsors/enok-total.png";
 
@@ -143,6 +144,9 @@ const Footer = () => {
         </Link>
         <Link href="https://www.enoktotal.no/" title="Enøk Total">
           <img src={enokTotal} alt="Enøk Total" />
+        </Link>
+        <Link href="https://mmf.no/" title="Mandal Musikkforening">
+          <img src={mandalMusikkforeningImg} alt="Mandal Musikkforening" />
         </Link>
         {/* <Link href="https://www.hansaborg.no/" title="Hansa Borg Bryggerier">
           <img src={hansaBorgImg} alt="Hansa Borg Bryggerier" />
