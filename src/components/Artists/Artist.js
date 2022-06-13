@@ -308,7 +308,7 @@ class Artist extends React.Component {
                             />
                           </li>
                         ) : (
-                          <li>{name}</li>
+                          <li key={name}>{name}</li>
                         )
                       )}
                     </ul>
