@@ -13,6 +13,7 @@ import {
 
 import styles from "./Artist.css";
 import byjubileumImg from "../../assets/images/byjubileum.png";
+import sparebankenSorImg from "../../assets/images/sponsors/sparebanken-sor.png";
 import linkStyles from "../Links/Link.css";
 import { PulsInfoBox, Link, Button } from "../";
 
@@ -288,11 +289,23 @@ class Artist extends React.Component {
                 )}
                 {isPulsArtist && <PulsInfoBox artistName={name} />}
                 {isByjubileumArtist && (
-                  <img
-                    src={byjubileumImg}
-                    alt="Mandal by 100 år"
-                    className={styles.ByjubileumImg}
-                  />
+                  <div>
+                    <img
+                      src={byjubileumImg}
+                      alt="Mandal by 100 år"
+                      className={styles.ByjubileumImg}
+                    />
+                    {sponsors &&
+                      sponsors.some(
+                        ({ name }) => name === "Sparebanken Sør"
+                      ) && (
+                        <img
+                          src={sparebankenSorImg}
+                          alt="Sparebanken Sør"
+                          className={styles.SpecialSponsorImg}
+                        />
+                      )}
+                  </div>
                 )}
                 {sponsors && (
                   <div>
