@@ -382,6 +382,7 @@
     },
     "isFree": true,
     "reserveFreeTicket": true,
+    "isKidsConcert": true,
     "isByjubileumArtist": true,
     "sponsors": [
       { "name": "Husfliden", "img": "husfliden.png" },

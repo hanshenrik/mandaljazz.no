@@ -26,6 +26,7 @@ const getSponsorImageUrl = (imageName) =>
 const TicketButton = ({
   concertStartAt,
   isFree,
+  isKidsConcert,
   reserveFreeTicket,
   externalTicketUrl,
 }) => {
@@ -41,7 +42,9 @@ const TicketButton = ({
           Reserver gratis plass
         </Button>
         <em style={{ fontSize: "1rem", margin: "0.5rem 0", display: "block" }}>
-          Konserten er gratis, men du må reservere plass.
+          {`Konserten er gratis, men alle publikummere${
+            isKidsConcert ? " (både barn og voksne) " : " "
+          }må reservere plass. Gjelder også de med festivalpass.`}
         </em>
       </>
     );
@@ -113,6 +116,7 @@ class Artist extends React.Component {
       video,
       externalTicketUrl,
       isFree,
+      isKidsConcert,
       reserveFreeTicket,
       facebookVideoUrl,
       isByjubileumArtist,
@@ -240,6 +244,7 @@ class Artist extends React.Component {
                   <div style={{ margin: "2rem 0" }}>
                     <TicketButton
                       isFree={isFree}
+                      isKidsConcert={isKidsConcert}
                       externalTicketUrl={externalTicketUrl}
                       reserveFreeTicket={reserveFreeTicket}
                       concertStartAt={concertStartAt}
