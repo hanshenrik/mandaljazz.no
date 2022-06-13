@@ -107,6 +107,7 @@ class Artist extends React.Component {
       concertStartAt,
       vimeoId,
       venue,
+      venueSupportText,
       link,
       video,
       externalTicketUrl,
@@ -223,7 +224,14 @@ class Artist extends React.Component {
                   {venue && (
                     <>
                       <FontAwesomeIcon icon={faMapMarkerAlt} />
-                      {venue}
+                      <div>
+                        <div>{venue}</div>
+                        {venueSupportText && (
+                          <div style={{ fontSize: "0.9rem" }}>
+                            {venueSupportText}
+                          </div>
+                        )}
+                      </div>
                     </>
                   )}
                 </div>
