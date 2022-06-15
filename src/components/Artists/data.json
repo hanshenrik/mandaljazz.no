@@ -417,6 +417,7 @@
     },
     "isFree": true,
     "reserveFreeTicket": true,
+    "isKidsConcert": true,
     "isByjubileumArtist": true,
     "linkedConcert": {
       "id": "365-dager-i-et-ar-friday",
