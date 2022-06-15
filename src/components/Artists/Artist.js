@@ -121,6 +121,7 @@ class Artist extends React.Component {
       facebookVideoUrl,
       isByjubileumArtist,
       sponsors,
+      linkedConcert,
     } = artist;
     const style = isActive
       ? {}
@@ -240,6 +241,25 @@ class Artist extends React.Component {
                     </>
                   )}
                 </div>
+                {linkedConcert && (
+                  <div style={{ paddingTop: "1rem" }}>
+                    <em>
+                      PS! Spiller også{" "}
+                      <HashLink
+                        smooth
+                        to={{
+                          pathname: "/",
+                          hash: `#${linkedConcert.id}`,
+                          state: { activeId: `${linkedConcert.id}` },
+                        }}
+                      >
+                        {dayjs(linkedConcert.concertStartAt).format(
+                          "dddd HH:mm"
+                        )}
+                      </HashLink>
+                    </em>
+                  </div>
+                )}
                 {
                   <div style={{ margin: "2rem 0" }}>
                     <TicketButton
