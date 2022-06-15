@@ -1,2 +1,9 @@
-# Deprecated
-Moved to https://github.com/hanshenrik/mandaljazz.no
+# Run
+
+```
+yarn
+yarn start
+```
+
+# Deploy
+Merges to `main` are automatically deployed through Vercel
