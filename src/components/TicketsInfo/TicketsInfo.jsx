@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Button, Link } from "../../components";
+import { Button, Link, HashLink } from "../../components";
 import styles from "./TicketsInfo.css";
 
 // eslint-disable-next-line
@@ -35,6 +35,34 @@ const TicketsInfo = () => (
 
     <h3>Festivalpass og dagspass</h3>
     <p>Gir inngang til alle konserter.</p>
+    <p style={{ marginTop: 0 }}>
+      <em>
+        NB! I år kreves det at alle, også de med festival- og dagspass,
+        reserverer gratis plass til{" "}
+        <HashLink
+          smooth
+          to={{
+            pathname: "/",
+            hash: "#stein-austrud-ekstra",
+            state: { activeId: "stein-austrud-ekstra" },
+          }}
+        >
+          åpningskonserten
+        </HashLink>{" "}
+        og{" "}
+        <HashLink
+          smooth
+          to={{
+            pathname: "/",
+            hash: "#365-dager-i-et-ar",
+            state: { activeId: "365-dager-i-et-ar" },
+          }}
+        >
+          barnekonsertene
+        </HashLink>
+        .
+      </em>
+    </p>
 
     <h3>Enkeltbilletter</h3>
     <p>Gir inngang til den aktuelle konserten.</p>
@@ -60,8 +88,43 @@ const TicketsInfo = () => (
       barneskoler.
     </p>
 
+    <h3>Åpningskonsert</h3>
+    <p>Åpningskonserten er gratis i år!</p>
+    <p style={{ marginTop: 0 }}>
+      <em>
+        NB! I år kreves det at alle (både barn og voksne) reserverer{" "}
+        <HashLink
+          smooth
+          to={{
+            pathname: "/",
+            hash: "#stein-austrud-ekstra",
+            state: { activeId: "stein-austrud-ekstra" },
+          }}
+        >
+          gratis plass
+        </HashLink>
+        . Gjelder også de med festival- og dagspass.
+      </em>
+    </p>
+
     <h3>Barnekonsert</h3>
-    <p>Barnekonserten er gratis for alle, både barn og voksne, i år!</p>
+    <p>Barnekonserten er gratis for alle, både barn og voksne!</p>
+    <p style={{ marginTop: 0 }}>
+      <em>
+        NB! I år kreves det at alle (både barn og voksne) reserverer{" "}
+        <HashLink
+          smooth
+          to={{
+            pathname: "/",
+            hash: "#365-dager-i-et-ar",
+            state: { activeId: "365-dager-i-et-ar" },
+          }}
+        >
+          gratis plass
+        </HashLink>
+        . Gjelder også de med festival- og dagspass.
+      </em>
+    </p>
 
     <h3>Funksjonshemmede med ledsagerbevis</h3>
     <p>
