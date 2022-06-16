@@ -97,6 +97,10 @@
     "isFree": true,
     "reserveFreeTicket": true,
     "isByjubileumArtist": true,
+    "linkedConcert": {
+      "id": "stein-austrud-ekstra",
+      "concertStartAt": "2022-06-30T19:20"
+    },
     "sponsors": [
       { "name": "Sparebanken Sør" },
       { "name": "Mandaljazz" },
@@ -494,6 +498,10 @@
     "isFree": true,
     "reserveFreeTicket": true,
     "isByjubileumArtist": true,
+    "linkedConcert": {
+      "id": "stein-austrud",
+      "concertStartAt": "2022-06-30T18:00"
+    },
     "sponsors": [
       { "name": "Sparebanken Sør" },
       { "name": "Mandaljazz" },

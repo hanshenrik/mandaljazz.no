@@ -243,7 +243,7 @@ class Artist extends React.Component {
                 </div>
                 {linkedConcert && (
                   <div style={{ paddingTop: "1rem" }}>
-                    <em>
+                    <span style={{ fontSize: "1rem" }}>
                       PS! Spiller også{" "}
                       <HashLink
                         smooth
@@ -254,10 +254,11 @@ class Artist extends React.Component {
                         }}
                       >
                         {dayjs(linkedConcert.concertStartAt).format(
-                          "dddd HH:mm"
+                          "dddd kl. HH:mm"
                         )}
                       </HashLink>
-                    </em>
+                      .
+                    </span>
                   </div>
                 )}
                 {
