@@ -395,7 +395,8 @@
     "sponsors": [
       { "name": "Husfliden", "img": "husfliden.png" },
       { "name": "Tønnesen", "img": "tonnesen.png" },
-      { "name": "Lille Danske", "img": "lille-danske.jpg" }
+      { "name": "Lille Danske", "img": "lille-danske.jpg" },
+      { "name": "Lekebutikken", "img": "lekebutikken.png" }
     ]
   },
   {
@@ -430,7 +431,8 @@
     "sponsors": [
       { "name": "Husfliden", "img": "husfliden.png" },
       { "name": "Tønnesen", "img": "tonnesen.png" },
-      { "name": "Lille Danske", "img": "lille-danske.jpg" }
+      { "name": "Lille Danske", "img": "lille-danske.jpg" },
+      { "name": "Lekebutikken", "img": "lekebutikken.png" }
     ]
   },
   {
