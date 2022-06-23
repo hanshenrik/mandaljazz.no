@@ -49,6 +49,7 @@ import mandalHotelImg from "../../assets/images/sponsors/mandal-hotel.png";
 import marnarBrukImg from "../../assets/images/sponsors/marnar-bruk.png";
 import mandalMusikkforeningImg from "../../assets/images/sponsors/mandal-musikkforening.jpg";
 import coradoImg from "../../assets/images/sponsors/corado.jpg";
+import whyConnectImg from "../../assets/images/sponsors/whyconnect.png";
 // import heimtunByggImg from "../../assets/images/sponsors/heimtun-bygg.jpg";
 import enokTotal from "../../assets/images/sponsors/enok-total.png";
 
@@ -154,6 +155,9 @@ const Footer = () => {
           title="Corado Coffee Roasters"
         >
           <img src={coradoImg} alt="Corado Coffee Roasters" />
+        </Link>
+        <Link href="https://whyconnect.no/" title="WHY Connect">
+          <img src={whyConnectImg} alt="WHY Connect" />
         </Link>
         {/* <Link href="https://www.hansaborg.no/" title="Hansa Borg Bryggerier">
           <img src={hansaBorgImg} alt="Hansa Borg Bryggerier" />
