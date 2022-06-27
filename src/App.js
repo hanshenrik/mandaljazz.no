@@ -66,7 +66,7 @@ class App extends React.Component {
                     path="/utlegg"
                     component={() =>
                       window.location.assign(
-                        "https://forms.gle/PSX9Pf3xUgBEXdW16"
+                        "https://forms.gle/Twc4cdormafcnPVw8"
                       )
                     }
                   />
