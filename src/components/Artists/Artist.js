@@ -397,6 +397,7 @@ class Artist extends React.Component {
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 controlsList="nodownload"
                 onClick={(e) => e.stopPropagation()}
+                poster={getImageUrl(imageName)}
               >
                 <source
                   src={require(`../../assets/videos/${video}`)}
