@@ -6,6 +6,7 @@ import ReactMapboxGl, {
   ZoomControl,
   RotationControl,
 } from "react-mapbox-gl";
+import { isMobile } from "react-device-detect";
 
 import {
   TravelInfo,
@@ -76,6 +77,8 @@ const PracticalInfoPage = () => {
     setVenue(venue);
   };
 
+  const zoom = isMobile ? 13.75 : 14.25;
+
   const onToggleHover = ({ map, cursor }) => {
     map.getCanvas().style.cursor = cursor;
   };
@@ -87,7 +90,7 @@ const PracticalInfoPage = () => {
         // eslint-disable-next-line react/style-prop-object
         style="mapbox://styles/mapbox/streets-v11"
         center={center}
-        zoom={[14.25]}
+        zoom={[zoom]}
         containerStyle={{
           height: "50vh",
           width: "100%",
