@@ -23,7 +23,7 @@ const SplashPage = () => (
     </header>
     <Artists />
     <div style={{ margin: "0 auto", maxWidth: "95%", width: "500px" }}>
-      <SpotifyPlayer uri="spotify:user:shenrik:playlist:707ekons2mCrUQ7cnBqUXM" />
+      <SpotifyPlayer uri="spotify:user:mandaljazz:playlist:7bRe3n4p7ki3482DA7paLg" />
     </div>
   </div>
 );

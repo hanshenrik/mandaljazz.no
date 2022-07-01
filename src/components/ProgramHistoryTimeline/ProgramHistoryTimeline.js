@@ -40,7 +40,7 @@ const ProgramHistoryTimeline = ({ children }) => (
           <li>365 dager i et år</li>
           <li>SNUS vs. BUJO</li>
         </ul>
-        <SpotifyPlayer uri="spotify:user:shenrik:playlist:707ekons2mCrUQ7cnBqUXM" />
+        <SpotifyPlayer uri="spotify:user:mandaljazz:playlist:7bRe3n4p7ki3482DA7paLg" />
       </div>
     </div>
     <div className={styles.Event}>
@@ -63,7 +63,7 @@ const ProgramHistoryTimeline = ({ children }) => (
           <li>JUNO</li>
           <li>Valkyrien Allstars</li>
         </ul>
-        <SpotifyPlayer uri="spotify:user:shenrik:playlist:3L0O7pHL2uLvlQV4qkiWnY" />
+        <SpotifyPlayer uri="spotify:user:mandaljazz:playlist:0WidFIgWoilkjFxsbyrKnW" />
       </div>
     </div>
     <div className={styles.Event}>
@@ -81,7 +81,7 @@ const ProgramHistoryTimeline = ({ children }) => (
           <li>Hildegunn Øiseths Panda</li>
           <li>Andreas Røysum Ensemble</li>
         </ul>
-        <SpotifyPlayer uri="spotify:user:shenrik:playlist:63sEsYsdJ5iWHAAiEgytS5" />
+        <SpotifyPlayer uri="spotify:user:mandaljazz:playlist:3bsaVvMLXtqBQrtVUnpMDc" />
       </div>
     </div>
     <div className={styles.Event}>
@@ -111,7 +111,7 @@ const ProgramHistoryTimeline = ({ children }) => (
           <li>Cool Tour</li>
           <li>Sørnorsk Ungdomsstorband (SNUS)</li>
         </ul>
-        <SpotifyPlayer uri="spotify:user:shenrik:playlist:349CT4jdsoqVHb37gmWTEC" />
+        <SpotifyPlayer uri="spotify:user:mandaljazz:playlist:1bJMg11qTaFXos3AhXcDGa" />
       </div>
     </div>
     <div className={styles.Event}>
@@ -138,7 +138,7 @@ const ProgramHistoryTimeline = ({ children }) => (
           <li>Mandal Storband</li>
           <li>Bomfunk Mimosa</li>
         </ul>
-        <SpotifyPlayer uri="spotify:user:shenrik:playlist:5S7NeIDOhxH7seAFUQpHCT" />
+        <SpotifyPlayer uri="spotify:user:mandaljazz:playlist:52IPREVc8kXgKkUgF3uhSJ" />
       </div>
     </div>
     <div className={styles.Event}>
