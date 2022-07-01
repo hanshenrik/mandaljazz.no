@@ -119,6 +119,11 @@
   align-items: stretch;
   justify-content: center;
 }
+:local(.Concert) {
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: var(--black-transparent-75);
+}
 :local(.ConcertInfo) {
   display: grid;
   grid-template-columns: 1fr 4fr;
@@ -144,6 +149,17 @@
 }
 :local(.SpecialSponsorImg) {
   margin-top: 0.5rem;
+}
+:local(.MultipleConcerts) {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: 1fr;
+}
+:local(.MultipleConcerts .ConcertInfo) {
+  font-size: 1.5rem;
+}
+:local(.MultipleConcerts .ConcertInfo svg) {
+  font-size: 2.5rem;
 }
 @media screen and (min-width: 720px) {
   :local(.Artist):not(.active):hover {

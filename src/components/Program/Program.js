@@ -16,7 +16,11 @@ class Program extends React.Component {
     isAlwaysOpen: false,
   };
 
-  artistsToBeShown = artists.filter((artist) => !artist.hideFromProgram);
+  concerts = artists
+    .filter((artist) => !artist.hideFromProgram)
+    .flatMap(({ concerts, ...artist }) => {
+      return concerts.map((concert) => ({ ...concert, artist }));
+    });
 
   state = {
     isOpen: false,
@@ -24,10 +28,10 @@ class Program extends React.Component {
 
   toggleIsOpen = () => this.setState({ isOpen: !this.state.isOpen });
 
-  artistsGroupedByDay = () =>
+  concertsGroupedByDay = () =>
     Object.entries(
-      groupBy(sortBy(this.artistsToBeShown, "concertStartAt"), (artist) =>
-        capitalize(dayjs(artist.concertStartAt).format("dddd D. MMMM"))
+      groupBy(sortBy(this.concerts, "startAt"), (concert) =>
+        capitalize(dayjs(concert.startAt).format("dddd D. MMMM"))
       )
     );
 
@@ -43,9 +47,14 @@ class Program extends React.Component {
     </RouterLink>
   );
 
-  renderArtistText = (artist) => {
+  renderArtistText = ({ artist, concert }) => {
+    const { shortExtraConcertName } = concert;
     const { hideFromArtistList, link, name, shortName, id } = artist;
-    const artistNameInBold = <strong>{shortName || name}</strong>;
+    const artistNameInBold = (
+      <strong>{`${shortName || name}${
+        shortExtraConcertName ? ` (${shortExtraConcertName.toLowerCase()})` : ""
+      }`}</strong>
+    );
 
     if (link) {
       return <RouterLink to={link}>{artistNameInBold}</RouterLink>;
@@ -82,31 +91,37 @@ class Program extends React.Component {
           closed={!isAlwaysOpen && !this.state.isOpen}
           transitionOnAppear={false}
         >
-          {this.artistsGroupedByDay().map(([day, artists]) => (
+          {this.concertsGroupedByDay().map(([day, concerts]) => (
             <div key={day} className={styles.ProgramDay}>
               <>
                 <h2>{day}</h2>
                 <ul className={styles.ProgramList}>
-                  {sortBy(artists, "concertStartAt").map((artist) => (
-                    <li key={artist.id} className={styles.ProgramListItem}>
+                  {concerts.map(({ artist, ...concert }) => (
+                    <li
+                      key={concert.startAt}
+                      className={styles.ProgramListItem}
+                    >
                       <span
                         className={styles.ProgramEntry}
                         style={{
-                          textDecoration: artist.cancelled
+                          textDecoration: concert.cancelled
                             ? "line-through"
                             : "",
                         }}
                       >
                         <span className={styles.ConcertInfo}>
-                          {dayjs(artist.concertStartAt).format("HH:mm")} @{" "}
-                          {artist.shortVenue || artist.venue}
+                          {dayjs(concert.startAt).format("HH:mm")} @{" "}
+                          {concert.shortVenue || concert.venue}
                         </span>
                         <span className={styles.ArtistName}>
-                          {this.renderArtistText(artist)}
+                          {this.renderArtistText({
+                            artist,
+                            concert,
+                          })}
                         </span>
                       </span>
                       <span style={{ fontSize: "14px" }}>
-                        {artist.cancelled && " Avlyst"}
+                        {concert.cancelled && " Avlyst"}
                       </span>
                     </li>
                   ))}

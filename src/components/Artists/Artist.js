@@ -24,11 +24,11 @@ const getSponsorImageUrl = (imageName) =>
   require(`../../assets/images/sponsors/${imageName}`);
 
 const TicketButton = ({
-  concertStartAt,
   isFree,
   isKidsConcert,
   mustReserveFreeTicket,
   externalTicketUrl,
+  startAtIfOnlyOneConcert,
 }) => {
   if (mustReserveFreeTicket) {
     return (
@@ -75,7 +75,11 @@ const TicketButton = ({
         )}
         <em style={{ fontSize: "0.9rem" }}>
           Du trenger ikke kjøpe enkeltbillett dersom du har festivalpass eller
-          dagspass til {dayjs(concertStartAt).format("dddd")}.{" "}
+          dagspass til{" "}
+          {startAtIfOnlyOneConcert
+            ? dayjs(startAtIfOnlyOneConcert).format("dddd")
+            : "den aktuelle dagen"}
+          .{" "}
           <NavLink className={linkStyles.Link} to="/billetter">
             Mer info om billetter
           </NavLink>
@@ -108,21 +112,17 @@ class Artist extends React.Component {
       soundcloudId,
       bands,
       isPulsArtist,
-      concertStartAt,
       concerts,
       vimeoId,
-      venue,
-      venueSupportText,
       link,
       video,
       externalTicketUrl,
-      isFree,
-      isKidsConcert,
-      mustReserveFreeTicket,
       facebookVideoUrl,
       isByjubileumArtist,
       sponsors,
-      linkedConcert,
+      mustReserveFreeTicket,
+      isFree,
+      isKidsConcert,
     } = artist;
     const style = isActive
       ? {}
@@ -221,58 +221,70 @@ class Artist extends React.Component {
                   ))}
               </div>
               <div>
-                <div className={styles.ConcertInfo}>
-                  {concertStartAt && (
-                    <>
-                      <FontAwesomeIcon icon={faClock} />
-                      {capitalize(dayjs(concertStartAt).format("dddd HH:mm"))}
-                    </>
-                  )}
-                  {venue && (
-                    <>
-                      <FontAwesomeIcon icon={faMapMarkerAlt} />
-                      <div>
-                        <div>{venue}</div>
-                        {venueSupportText && (
-                          <div style={{ fontSize: "0.9rem" }}>
-                            {venueSupportText}
+                {concerts && (
+                  <div
+                    className={classNames({
+                      [styles.MultipleConcerts]: concerts.length > 1,
+                    })}
+                  >
+                    {concerts.map(
+                      ({
+                        startAt,
+                        venue,
+                        venueSupportText,
+                        extraConcertName,
+                      }) => (
+                        <div key={startAt} className={styles.Concert}>
+                          {extraConcertName && (
+                            <h4
+                              style={{
+                                marginTop: 0,
+                                marginBottom: "1rem",
+                                textAlign: "center",
+                              }}
+                            >
+                              {capitalize(extraConcertName)}
+                            </h4>
+                          )}
+                          <div className={styles.ConcertInfo}>
+                            {startAt && (
+                              <>
+                                <FontAwesomeIcon icon={faClock} />
+                                {capitalize(
+                                  dayjs(startAt).format("dddd HH:mm")
+                                )}
+                              </>
+                            )}
+                            {venue && (
+                              <>
+                                <FontAwesomeIcon icon={faMapMarkerAlt} />
+                                <div>
+                                  <div>{venue}</div>
+                                  {venueSupportText && (
+                                    <div style={{ fontSize: "0.9rem" }}>
+                                      {venueSupportText}
+                                    </div>
+                                  )}
+                                </div>
+                              </>
+                            )}
                           </div>
-                        )}
-                      </div>
-                    </>
-                  )}
-                </div>
-                {linkedConcert && (
-                  <div style={{ paddingTop: "1rem" }}>
-                    <span style={{ fontSize: "1rem" }}>
-                      PS! Spiller også{" "}
-                      <HashLink
-                        smooth
-                        to={{
-                          pathname: "/",
-                          hash: `#${linkedConcert.id}`,
-                          state: { activeId: `${linkedConcert.id}` },
-                        }}
-                      >
-                        {dayjs(linkedConcert.concertStartAt).format(
-                          "dddd kl. HH:mm"
-                        )}
-                      </HashLink>
-                      .
-                    </span>
+                        </div>
+                      )
+                    )}
                   </div>
                 )}
-                {
-                  <div style={{ margin: "2rem 0" }}>
-                    <TicketButton
-                      isFree={isFree}
-                      isKidsConcert={isKidsConcert}
-                      externalTicketUrl={externalTicketUrl}
-                      mustReserveFreeTicket={mustReserveFreeTicket}
-                      concertStartAt={concertStartAt}
-                    />
-                  </div>
-                }
+                <div style={{ margin: "2rem 0" }}>
+                  <TicketButton
+                    isFree={isFree}
+                    isKidsConcert={isKidsConcert}
+                    externalTicketUrl={externalTicketUrl}
+                    mustReserveFreeTicket={mustReserveFreeTicket}
+                    startAtIfOnlyOneConcert={
+                      concerts.length === 1 ? concerts[0].startAt : null
+                    }
+                  />
+                </div>
                 {bands && (
                   <div>
                     {Object.keys(bands).map((band) => (

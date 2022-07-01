@@ -1,7 +1,6 @@
 [
   {
-    "venue": "Teltet",
-    "concertStartAt": "2022-07-01T20:00",
+    "concerts": [{ "venue": "Teltet", "startAt": "2022-07-01T20:00" }],
     "name": "Jenny Hval",
     "imageName": "jenny-hval.jpg",
     "id": "jenny-hval",
@@ -27,8 +26,7 @@
     "spotifyUri": "artist/5eerVxtb9lY9p6D7m89Bs7?si=ClTCzs0fQb65GFI0jDbXlA"
   },
   {
-    "venue": "Teltet",
-    "concertStartAt": "2022-07-02T21:00",
+    "concerts": [{ "venue": "Teltet", "startAt": "2022-07-02T21:00" }],
     "name": "Steamdome",
     "imageName": "steamdome.jpg",
     "id": "steamdome",
@@ -56,10 +54,24 @@
     "youtubeUrl": "https://www.youtube.com/embed/i0YZKRx-fKA"
   },
   {
-    "venue": "Uranienborg Parkeringshus",
-    "shortVenue": "Uranienborg P",
-    "venueSupportText": "Inngang fra Hestetroa via gangtunnel",
-    "concertStartAt": "2022-06-30T18:00",
+    "concerts": [
+      {
+        "venue": "Uranienborg Parkeringshus",
+        "shortVenue": "Uranienborg P",
+        "venueSupportText": "Inngang fra Hestetroa via gangtunnel",
+        "startAt": "2022-06-30T18:00"
+      },
+      {
+        "extraConcertName": "ekstrakonsert",
+        "shortExtraConcertName": "ekstra",
+        "venue": "Uranienborg Parkeringshus",
+        "shortVenue": "Uranienborg P",
+        "venueSupportText": "Inngang fra Hestetroa via gangtunnel",
+        "startAt": "2022-06-30T19:20"
+      }
+    ],
+    "isFree": true,
+    "mustReserveFreeTicket": true,
     "name": "Stein Austrud Ensemble",
     "shortName": "Stein Austrud",
     "imageName": "stein-austrud.png",
@@ -94,13 +106,7 @@
     },
     "spotifyUri": "album/1uROPcrEJOsWLx4nopixyA?si=lft7biJzRtidwy_1lWXEDw",
     "video": "stein-austrud.mp4",
-    "isFree": true,
-    "mustReserveFreeTicket": true,
     "isByjubileumArtist": true,
-    "linkedConcert": {
-      "id": "stein-austrud-ekstra",
-      "concertStartAt": "2022-06-30T19:20"
-    },
     "sponsors": [
       { "name": "Sparebanken Sør" },
       { "name": "Mandaljazz" },
@@ -111,8 +117,7 @@
     ]
   },
   {
-    "venue": "Teltet",
-    "concertStartAt": "2022-07-01T22:00",
+    "concerts": [{ "venue": "Teltet", "startAt": "2022-07-01T22:00" }],
     "name": "Marilyn Mazur – Shamania",
     "shortName": "Marilyn Mazur",
     "imageName": "marilyn-mazurs-shamania.png",
@@ -142,8 +147,7 @@
     "isPulsArtist": true
   },
   {
-    "venue": "Teltet",
-    "concertStartAt": "2022-07-02T23:00",
+    "concerts": [{ "venue": "Teltet", "startAt": "2022-07-02T23:00" }],
     "name": "The KutiMangoes",
     "imageName": "the-kutimangoes.png",
     "id": "the-kutimangoes",
@@ -168,8 +172,7 @@
     "isPulsArtist": true
   },
   {
-    "venue": "Teltet",
-    "concertStartAt": "2022-06-30T22:10",
+    "concerts": [{ "venue": "Teltet", "startAt": "2022-06-30T22:10" }],
     "name": "Fra Det Onde",
     "imageName": "fra-det-onde.png",
     "id": "fra-det-onde",
@@ -193,8 +196,7 @@
     "spotifyUri": "artist/5Ev9KzkLwMcyv5J7vNLJGQ"
   },
   {
-    "venue": "Teltet",
-    "concertStartAt": "2022-07-01T18:00",
+    "concerts": [{ "venue": "Teltet", "startAt": "2022-07-01T18:00" }],
     "shortName": "Akmee",
     "name": "Akmee – 100-årsjubileum",
     "imageName": "akmee.jpg",
@@ -217,8 +219,7 @@
     "isByjubileumArtist": true
   },
   {
-    "venue": "Elvesalen, Buen",
-    "concertStartAt": "2022-07-01T16:00",
+    "concerts": [{ "venue": "Elvesalen, Buen", "startAt": "2022-07-01T16:00" }],
     "name": "Impro Fauna",
     "imageName": "impro-fauna.jpg",
     "id": "impro-fauna",
@@ -235,8 +236,7 @@
     "externalTicketUrl": "https://checkout.ebillett.no/202/events/79103/purchase/setup"
   },
   {
-    "venue": "Sjøboden",
-    "concertStartAt": "2022-07-01T23:30",
+    "concerts": [{ "venue": "Sjøboden", "startAt": "2022-07-01T23:30" }],
     "name": "The Big YES!",
     "imageName": "the-big-yes.jpg",
     "id": "the-big-yes",
@@ -259,8 +259,7 @@
     "isPulsArtist": true
   },
   {
-    "venue": "Teltet",
-    "concertStartAt": "2022-07-02T19:00",
+    "concerts": [{ "venue": "Teltet", "startAt": "2022-07-02T19:00" }],
     "name": "Marthe Lea Band",
     "imageName": "marthe-lea-band.jpg",
     "id": "marthe-lea-band",
@@ -286,8 +285,7 @@
     "youtubeUrl": "https://www.youtube.com/embed/nppPVRjzU2Y"
   },
   {
-    "venue": "Elvesalen, Buen",
-    "concertStartAt": "2022-07-02T17:00",
+    "concerts": [{ "venue": "Elvesalen, Buen", "startAt": "2022-07-02T17:00" }],
     "name": "Maridalen",
     "imageName": "maridalen.jpg",
     "id": "maridalen",
@@ -316,8 +314,7 @@
     "externalTicketUrl": "https://checkout.ebillett.no/202/events/79104/purchase/setup"
   },
   {
-    "venue": "Piren Kulturrom",
-    "concertStartAt": "2022-07-02T11:30",
+    "concerts": [{ "venue": "Piren Kulturrom", "startAt": "2022-07-02T11:30" }],
     "name": "Schemes",
     "imageName": "schemes.jpg",
     "id": "schemes",
@@ -337,8 +334,7 @@
     }
   },
   {
-    "venue": "Teltet",
-    "concertStartAt": "2022-06-30T20:40",
+    "concerts": [{ "venue": "Teltet", "startAt": "2022-06-30T20:40" }],
     "name": "¡BangBang Watergun!",
     "imageName": "bangbang-watergun.jpg",
     "id": "bangbang-watergun",
@@ -364,45 +360,20 @@
     "imageAttribution": "Foto: Martin Bremnes"
   },
   {
-    "venue": "Lekebutikken",
-    "concertStartAt": "2022-07-01T13:00",
-    "name": "365 dager i et år (fredag)",
-    "shortName": "365 dager i et år",
-    "imageName": "365-dager-i-et-ar.jpg",
-    "id": "365-dager-i-et-ar-friday",
-    "paragraphs": [
-      "Bli med Mari og Nicolai på en magisk tur gjennom naturens fire årstider!",
-      "«365 dager i et år» er en barneforestilling og et kunstnermøte mellom steppdans og elgitar. I forestillingen vil vi spille og danse oss gjennom et helt år med årstider. Det blir steppdans, musikk, fortellerteater, rytmer og interaktive deler der publikum inviteres til å synge og lage rytmer sammen med utøverne.",
-      "Temaet i forestillingen er natur - og mennesket i forhold til naturen. Forhåpentligvis blir barna nysgjerrige på naturen, på endringene som skjer, på lydene naturen lager og på hvordan man kan lage kunst inspirert av naturen.",
-      "Vi skal også lære litt sammen, som for eksempel når man kan høre gjøken si «ko-ko» som i sangen «Jeg gikk en tur på stien», eller når snøen pleier å komme, hva det betyr at fugler «trekker» sørover og mye mer.",
-      "«365 dager i et år» er laget og produsert av mandalitten Mari Marie Ø. Nyvoll. Før forestillingen spilles hos oss på mandaljazz, skal den ut på turné i Den Kulturelle Skolesekken i Kristiansand.",
-      "Forestillingen er anbefalt for barn i alderen 4 til 8 år, men kan også fint sees av barn fra 1 til 100. Vi håper flest mulig har lyst til å komme på en gøyal forestilling for å utforske og leke med årstidene!"
+    "concerts": [
+      {
+        "startAt": "2022-07-01T13:00",
+        "venue": "Lekebutikken"
+      },
+      {
+        "startAt": "2022-07-02T13:00",
+        "venue": "Lekebutikken"
+      }
     ],
-    "bands": {
-      "365 dager i et år": [
-        "Nicolai Gill Johannessen – gitar",
-        "Mari Marie Øinæs Nyvoll – steppdans"
-      ]
-    },
     "isFree": true,
     "mustReserveFreeTicket": true,
     "isKidsConcert": true,
-    "isByjubileumArtist": true,
-    "linkedConcert": {
-      "id": "365-dager-i-et-ar",
-      "concertStartAt": "2022-07-02T13:00"
-    },
-    "sponsors": [
-      { "name": "Husfliden", "img": "husfliden.png" },
-      { "name": "Tønnesen", "img": "tonnesen.png" },
-      { "name": "Lille Danske", "img": "lille-danske.jpg" },
-      { "name": "Lekebutikken", "img": "lekebutikken.png" }
-    ]
-  },
-  {
-    "venue": "Lekebutikken",
-    "concertStartAt": "2022-07-02T13:00",
-    "name": "365 dager i et år (lørdag)",
+    "name": "365 dager i et år",
     "shortName": "365 dager i et år",
     "imageName": "365-dager-i-et-ar.jpg",
     "id": "365-dager-i-et-ar",
@@ -420,14 +391,7 @@
         "Mari Marie Øinæs Nyvoll – steppdans"
       ]
     },
-    "isFree": true,
-    "mustReserveFreeTicket": true,
-    "isKidsConcert": true,
     "isByjubileumArtist": true,
-    "linkedConcert": {
-      "id": "365-dager-i-et-ar-friday",
-      "concertStartAt": "2022-07-01T13:00"
-    },
     "sponsors": [
       { "name": "Husfliden", "img": "husfliden.png" },
       { "name": "Tønnesen", "img": "tonnesen.png" },
@@ -436,8 +400,8 @@
     ]
   },
   {
-    "venue": "Hestetroa",
-    "concertStartAt": "2022-07-02T14:00",
+    "concerts": [{ "venue": "Hestetroa", "startAt": "2022-07-02T14:00" }],
+    "isFree": true,
     "name": "SNUS vs. BUJO",
     "imageName": "snus-bujo.jpg",
     "id": "snus",
@@ -455,62 +419,6 @@
       "SNUS": ["kommer…"],
       "BUJO": ["kommer…"]
     },
-    "isFree": true,
     "isByjubileumArtist": true
-  },
-  {
-    "venue": "Uranienborg Parkeringshus",
-    "shortVenue": "Uranienborg P",
-    "venueSupportText": "Inngang fra Hestetroa via gangtunnel",
-    "concertStartAt": "2022-06-30T19:20",
-    "name": "Stein Austrud Ensemble (ekstrakonsert)",
-    "shortName": "Stein Austrud (ekstra)",
-    "imageName": "stein-austrud.png",
-    "id": "stein-austrud-ekstra",
-    "paragraphs": [
-      "I fjor fylte Mandal 100 år som by, og i år feires det med en stor jubileumsfest samme helg som Mandaljazz avholdes. Konserten er gratis for alle, takket være støtte fra Mandaljazz, Stein Austrud, Jubileumskomiteen, Mandal Parkering og flere.",
-      "Mandal, som påberoper seg å være “den lille byen med di store kunstneran”, har fostret mange begavede musikere. En av de mest markante er pianist, keyboardist, synthmann og multimusiker Stein Austrud. Stein har lenge vært en slags “bakmann”, som komponist, produsent og studiomusiker. Viktigst har han kanskje vært som del av det fløyelsmyke lydbildet til landets største acid jazz-ambassadører, D’Sound. De siste årene har han vært en essensiell del av livebandet til Mari Boine.",
-      "Først i høst debuterte Stein som solomusiker, 52 år gammel, med albumet We Meet, We Touch, I Am. Dette er første del av prosjektet The Singing People of the North, hvor han improviserer med et vell av synthesizere over mystiske landskaper av stemmer. Stein er fascinert av stemmen som instrument, og albumet er resultat av hans møte med hundrevis av syngende mennesker. Stein synger også selv, forkledd bak en vocoder, som får musikken til å minne om Bon Ivers elektroniske, men naturnære folk.",
-      "Det kritikerroste albumet har i stor grad blitt til i Steins hjem på Skjernøy, som ligger i havgapet utenfor Mandal og er Norges sørligste fast bebodde plass. “Det å bo og jobbe på denne øya med dens nærhet til havet – lyset, lydene og til og med dens unike lukter – har en betydelig innvirkning på meg og musikken min,” forteller han.",
-      "Under konserten inne i Uranienborg vil en hel haug med musikere og sangere fra Mandal og omegn være med. Lokale teknikere vil projektere video i taket. Publikum kommer til å befinne seg mellom Stein og hans følgesvenner.",
-      "NB: Det vil bli satt opp en ekstrakonsert om den første blir fullbooket.",
-      "Presseutklipp:<br /><strong>Vårt Land:</strong> «Et storslått verk som minner oss om vår egen eksistens.» (Anmeldelse av We Meet, We Touch, I Am)",
-      "<strong>Nettavisen:</strong> «Et sterkt og høyst personlig møte.» (Anmeldelse av We Meet, We Touch, I Am)",
-      "<strong>Harstad Tidende:</strong> «Trollmannen Stein Austrud: Jeg vet ingen som kan male vakrere lydflater enn nettopp han.» (Anmeldelse av konsert med Mari Boine Band)"
-    ],
-    "bands": {
-      "Medvirkende": [
-        "Stein Austrud - Piano, Synthersizere, Lyddesign, Melodisk Perkusjon og Vokal ",
-        "Mandal Kammerkor",
-        "Sangere fra Ballastbrygga boyband, Showkoret & F.o.s.s.",
-        "Kristian Tybakken - Trommer & Perkusjon",
-        "Hildegunn Øiseth - Bukkehorn & Trompet ",
-        "Ingor Ante Ailu Gaup - Joik & Strupesang ",
-        "Kjell Åge Stoveland - Bratsj",
-        "Gard Nergaard - Fele",
-        "Alvina Herbinger Rygne - Fele",
-        "Silje Nordheim - Performance danser ",
-        "Emil Austrud - Perkusjon & Keyboard",
-        "Emanuel Austrud - Koshi",
-        "Lucas Austrud - Kosho & Sang"
-      ]
-    },
-    "spotifyUri": "album/1uROPcrEJOsWLx4nopixyA?si=lft7biJzRtidwy_1lWXEDw",
-    "video": "stein-austrud.mp4",
-    "isFree": true,
-    "mustReserveFreeTicket": true,
-    "isByjubileumArtist": true,
-    "linkedConcert": {
-      "id": "stein-austrud",
-      "concertStartAt": "2022-06-30T18:00"
-    },
-    "sponsors": [
-      { "name": "Sparebanken Sør" },
-      { "name": "Mandaljazz" },
-      { "name": "Stein Austrud" },
-      { "name": "Jubileumskomiteen" },
-      { "name": "Mandal Parkering" },
-      { "name": "...og flere" }
-    ]
   }
 ]
