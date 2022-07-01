@@ -60,7 +60,7 @@ const TicketButton = ({
               href: externalTicketUrl,
             }}
           >
-            Kjøp billett hos Buen
+            Kjøp enkeltbillett hos Buen
           </Button>
         ) : (
           <Button
@@ -70,7 +70,7 @@ const TicketButton = ({
                 "https://mandaljazz.ticketco.events/no/nb/e/mandaljazz-2022",
             }}
           >
-            Kjøp billett
+            Kjøp enkeltbillett
           </Button>
         )}
         <em style={{ fontSize: "0.9rem" }}>
