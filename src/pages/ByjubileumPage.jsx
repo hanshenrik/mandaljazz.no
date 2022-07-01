@@ -4,7 +4,7 @@ import { ScrollToTopOnMount } from "../components";
 import styles from "./ByjubileumPage.css";
 import byjubileumImg from "../assets/images/byjubileum.png";
 import steinAustrudImg from "../assets/images/artists/stein-austrud.png";
-import snusImg from "../assets/images/artists/snus.jpg";
+import snusBujoImg from "../assets/images/artists/snus-bujo.jpg";
 import akmeeImg from "../assets/images/artists/akmee.jpg";
 import barnekonsertImg from "../assets/images/artists/365-dager-i-et-ar.jpg";
 
@@ -108,7 +108,7 @@ const ByjubileumPage = () => (
 
     <h2>SNUS – gratis storbandkonsert ved Hestetroa</h2>
     <img
-      src={snusImg}
+      src={snusBujoImg}
       alt="Sørnorsk Ungdomsstorband"
       style={{ margin: "auto", width: "100%" }}
     />
