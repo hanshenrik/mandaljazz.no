@@ -55,7 +55,6 @@
   max-width: 14rem;
   max-height: 5rem;
   padding: 1rem;
-  filter: grayscale(1);
 }
 :local(.Sponsors).large img {
   max-width: 30rem;
