@@ -72,12 +72,12 @@ const venues = [
 const PracticalInfoPage = () => {
   const [venue, setVenue] = useState();
   const [center, setCenter] = useState([7.45436325431531, 58.02442355659143]);
+  const zoom = isMobile ? 13.75 : 14.25;
+
   const onMarkerClick = (venue) => {
     setCenter(venue.coordinates);
     setVenue(venue);
   };
-
-  const zoom = isMobile ? 13.75 : 14.25;
 
   const onToggleHover = ({ map, cursor }) => {
     map.getCanvas().style.cursor = cursor;
@@ -96,6 +96,10 @@ const PracticalInfoPage = () => {
           width: "100%",
         }}
         onDrag={() => setVenue()}
+        flyToOptions={{
+          curve: 2,
+          speed: 0.5,
+        }}
       >
         <ZoomControl />
         <RotationControl />
