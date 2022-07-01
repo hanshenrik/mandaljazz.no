@@ -2,7 +2,7 @@
   font-size: 1rem;
   padding: 1rem;
   border-radius: 8px;
-  background-color: var(--white-transparent-superlight);
+  background-color: var(--black-transparent-75);
 }
 :local(.PulsInfoBox) p:first-child {
   border-left: none;
