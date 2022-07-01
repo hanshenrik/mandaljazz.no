@@ -71,6 +71,9 @@ const Footer = () => {
         <Link href="https://red.no/" title="Hr. Redaktør!">
           <img src={hrRedaktorImg} alt="Hr. Redaktør!" />
         </Link>
+        <Link href="https://whyconnect.no/" title="WHY Connect">
+          <img src={whyConnectImg} alt="WHY Connect" />
+        </Link>
         {/* <Link href="https://www.heimtunbygg.no/" title="Heimtun Bygg">
           <img src={heimtunByggImg} alt="Heimtun Bygg" />
         </Link> */}
@@ -155,9 +158,6 @@ const Footer = () => {
           title="Corado Coffee Roasters"
         >
           <img src={coradoImg} alt="Corado Coffee Roasters" />
-        </Link>
-        <Link href="https://whyconnect.no/" title="WHY Connect">
-          <img src={whyConnectImg} alt="WHY Connect" />
         </Link>
         {/* <Link href="https://www.hansaborg.no/" title="Hansa Borg Bryggerier">
           <img src={hansaBorgImg} alt="Hansa Borg Bryggerier" />
