@@ -27,10 +27,10 @@ const TicketButton = ({
   concertStartAt,
   isFree,
   isKidsConcert,
-  reserveFreeTicket,
+  mustReserveFreeTicket,
   externalTicketUrl,
 }) => {
-  if (reserveFreeTicket) {
+  if (mustReserveFreeTicket) {
     return (
       <>
         <Button
@@ -109,6 +109,7 @@ class Artist extends React.Component {
       bands,
       isPulsArtist,
       concertStartAt,
+      concerts,
       vimeoId,
       venue,
       venueSupportText,
@@ -117,7 +118,7 @@ class Artist extends React.Component {
       externalTicketUrl,
       isFree,
       isKidsConcert,
-      reserveFreeTicket,
+      mustReserveFreeTicket,
       facebookVideoUrl,
       isByjubileumArtist,
       sponsors,
@@ -267,7 +268,7 @@ class Artist extends React.Component {
                       isFree={isFree}
                       isKidsConcert={isKidsConcert}
                       externalTicketUrl={externalTicketUrl}
-                      reserveFreeTicket={reserveFreeTicket}
+                      mustReserveFreeTicket={mustReserveFreeTicket}
                       concertStartAt={concertStartAt}
                     />
                   </div>

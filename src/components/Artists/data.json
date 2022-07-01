@@ -95,7 +95,7 @@
     "spotifyUri": "album/1uROPcrEJOsWLx4nopixyA?si=lft7biJzRtidwy_1lWXEDw",
     "video": "stein-austrud.mp4",
     "isFree": true,
-    "reserveFreeTicket": true,
+    "mustReserveFreeTicket": true,
     "isByjubileumArtist": true,
     "linkedConcert": {
       "id": "stein-austrud-ekstra",
@@ -385,7 +385,7 @@
       ]
     },
     "isFree": true,
-    "reserveFreeTicket": true,
+    "mustReserveFreeTicket": true,
     "isKidsConcert": true,
     "isByjubileumArtist": true,
     "linkedConcert": {
@@ -421,7 +421,7 @@
       ]
     },
     "isFree": true,
-    "reserveFreeTicket": true,
+    "mustReserveFreeTicket": true,
     "isKidsConcert": true,
     "isByjubileumArtist": true,
     "linkedConcert": {
@@ -498,7 +498,7 @@
     "spotifyUri": "album/1uROPcrEJOsWLx4nopixyA?si=lft7biJzRtidwy_1lWXEDw",
     "video": "stein-austrud.mp4",
     "isFree": true,
-    "reserveFreeTicket": true,
+    "mustReserveFreeTicket": true,
     "isByjubileumArtist": true,
     "linkedConcert": {
       "id": "stein-austrud",
