@@ -3,7 +3,7 @@ import { withRouter } from "react-router-dom";
 
 import Artist from "./Artist";
 import styles from "./Artists.css";
-import artistData from "../../data/artists.json";
+import artists from "../../data/artists.json";
 
 // - blend mode på grid-bilder: lighten, bruk hover til å se ordentlig. Flere grønnskjateringer.
 // - større grid-items på desktop?
@@ -45,7 +45,7 @@ class Artists extends React.Component {
     return (
       <div>
         <div className={styles.Artists}>
-          {artistData.map((artist) => {
+          {artists.map((artist) => {
             const { id, hideFromArtistList } = artist;
             if (hideFromArtistList) {
               return null;

@@ -8,7 +8,7 @@ const Link = ({ children, skipTargetBlank, className, ...props }) => {
     ? {}
     : {
         rel: "noopener noreferrer",
-        target: "_blank"
+        target: "_blank",
       };
 
   return (

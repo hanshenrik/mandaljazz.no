@@ -125,6 +125,7 @@ class Artist extends React.Component {
       isFree,
       isKidsConcert,
     } = artist;
+
     const style = isActive
       ? {}
       : { backgroundImage: `url(${getImageUrl(imageName)})` };
@@ -151,8 +152,11 @@ class Artist extends React.Component {
         )}
         {!isActive && !link && (
           <HashLink
-            smooth
-            to={`#${id}`}
+            to={{
+              pathname: "/",
+              hash: `#${id}`,
+              state: { activeId: id },
+            }}
             style={{
               position: "absolute",
               width: "100%",
