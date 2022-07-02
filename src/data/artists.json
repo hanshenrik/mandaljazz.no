@@ -1,31 +1,5 @@
 [
   {
-    "concerts": [{ "venueId": "teltet", "startAt": "2022-07-01T20:00" }],
-    "name": "Jenny Hval",
-    "imageName": "jenny-hval.jpg",
-    "id": "jenny-hval",
-    "paragraphs": [
-      "Kunstpop som drar oss med inn i den kollektive underbevisstheten.",
-      "Jenny Hval er kanskje den fremste representanten her til lands for det man gjerne kaller “kunstpop”. Musikken til tvedestrandingen er full av symbolikk og formeksperimenter – her finner man vampyrer, blackmetal-droner, kjærlighetspoesi. Hval maner fram et forhistorisk, nesten mytologisk mørke, og vever det sammen med kritiske skråblikk på tiden vi lever i, akkurat her og nå.",
-      "De siste årene har hun flørtet mer med popmusikk enn tidligere, men det er fortsatt milevis unna noe man finner på hitlistene. Hennes helt ferske album Classic Objects er hennes varmeste til dags dato – her aner man spor av både reggae og bossa nova. Hval har vært så dristig å kalle det sitt popalbum: Hver sang har vers og refreng, og lydbildet har et distinkt bandpreg. Albumet er utgitt på legendariske 4AD, plateselskapet som på 80-tallet nærmest egenhendig oppfant den alternative popmusikken.",
-      "Det er alltid morsomt å se Jenny Hval i konsertformat. En representant for bookingkomiteen har sett henne på festival i Spania, dansende rundt på scenen i vampyrdrakt. Andre ganger tar hun den helt ut – med bananas konseptuell scenografi, som flørter vel så mye med performancekunst som en tradisjonell konsert Til Mandaljazz tar hun med seg et fulltallig band, og man kan nok sette penger på at heller ikke det blir helt streit."
-    ],
-    "imageAttribution": "Jenny Berger Myhre",
-    "bands": {
-      "Medvirkende": [
-        "Jenny Hval",
-        "Håvard Reite Volden",
-        "Jenny Berger Myhre",
-        "Kyrre Geithus Laastad",
-        "Daniel Meyer Grønvold",
-        "Johan Erik Gustavson Lindvall",
-        "Linn Kristina Nystadnes"
-      ]
-    },
-    "youtubeUrl": "https://www.youtube.com/embed/2i2oJJwgLTk",
-    "spotifyUri": "artist/5eerVxtb9lY9p6D7m89Bs7?si=ClTCzs0fQb65GFI0jDbXlA"
-  },
-  {
     "concerts": [{ "venueId": "teltet", "startAt": "2022-07-02T21:00" }],
     "name": "Steamdome",
     "imageName": "steamdome.jpg",
@@ -52,6 +26,112 @@
     "imageAttribution": "Foto: Marte Amanda Vannebo",
     "spotifyUri": "album/7mRD6WVJDW44tFTLzMZpV9?si=3CHLf5ChSCqiH5LS_pU2mA",
     "youtubeUrl": "https://www.youtube.com/embed/i0YZKRx-fKA"
+  },
+  {
+    "concerts": [{ "venueId": "teltet", "startAt": "2022-07-02T23:00" }],
+    "name": "The KutiMangoes",
+    "imageName": "the-kutimangoes.png",
+    "id": "the-kutimangoes",
+    "paragraphs": [
+      "Afrobeat i widescreen",
+      "Det internasjonalt anerkjente Københavnske ensemble tar Afrojazz til et nytt nivå. Deres 3. album «Afrotropism» (2019) forener afrikanske tradisjoner med europeisk modernitet. Man skal lete lenge for å finne et annet europeisk band som har bidratt mer til afrobeatens fornyede populæritet de siste årene enn dette københavnske seks-manns bandet ledet av Michael Blicher (sax) og Gustav Rasmussen (trombone, gitar).",
+      "The KutiMangoes har mottatt fantastiske anmeldelser internasjonalt og er kjent for sine livlige live-konserter. Uansett hvor de spiller, etterlater de et smilende publikum som roper etter mer! Etter bare et par takter med deres varme, blåser-bårne lyd er det umulig for publikum å sitte stille i stolene sine - så vi håper vi endelig får lov til å åpne dansegulvet inne i festivalteltet, for her kommer det til å rykke i dansefoten!"
+    ],
+    "imageAttribution": "Foto: Manuel Weber",
+    "bands": {
+      "The KutiMangoes": [
+        "Michael Blicher – sax, fløyte",
+        "Gustav Rasmussen – trombone, gitar",
+        "Aske Drasbæk – sax",
+        "Johannes Buhl Andresen – Fender Rhodes, Moog bass",
+        "Casper Mikkelsen/Eddi Jarl – trommer",
+        "Magnus Jochumsen – perkusjon"
+      ]
+    },
+    "spotifyUri": "artist/3Q5iBVx1lEGSrVPbJt0mBp?si=kN00K9R8SMel1Zn1Q1oB_g",
+    "youtubeUrl": "https://www.youtube.com/embed/oYRBOgOyV2E",
+    "isPulsArtist": true
+  },
+  {
+    "concerts": [{ "venueId": "teltet", "startAt": "2022-07-02T19:00" }],
+    "name": "Marthe Lea Band",
+    "imageName": "marthe-lea-band.jpg",
+    "id": "marthe-lea-band",
+    "paragraphs": [
+      "La det som skjer, skje!",
+      "Marthe Lea manøvrerer seg gjennom musikkens mysterium på en finurlig måte. Det har hun vist de siste årene i mange ulike sammenhenger med flere anerkjente musikere. Lea balanserer sitt inderlige og kraftfulle uttrykk, med både folketoner og hyling, på en befriende måte. I sommer tar hun med seg bandet sitt og kommer til mandaljazz 2022!",
+      "Asura, debutalbumet som kom ut i juni 2021, er Marthe Lea Band sin kjærlighetserklæring til livet. Tydelig inspirert av folkemusikk fra fjern og nær kan man gjennom syv høyst ulike låter høre musikernes bakgrunner og interesser forplante seg i sjelfulle vibrasjoner. Dette er musikk for feiring!",
+      "Marthe Lea opptrer med en rekke instrumenter på dette albumet. Piano-, gitar- og fløyte-spillet hennes faller seg like naturlig som når hun spiller på hovedinstrumentet sitt; tenorsaksofon. Leser man gjennom bestillingslisten finner man at samtlige musikere er multiinstrumentalister, så publikum får vitne flere instrumentbytter live på scenen.",
+      "Bandet har siden 2018 spilt en rekke fritt improviserte konserter som gjerne har vart i både en og to timer. Filosofien har vært å la det som skjer, skje. De har faktisk bare hatt en låt på repertoaret, titulert «Sneaky Sneaky». Overraskelsen var derfor stor da Lea dukket opp dagen før innspillingen med seks helt nye låter, alle med finurlige vendinger - akkurat som Marthe Lea selv. Innspillingen ble så et forsøk på å spille disse låtene slik Lea hadde tenkt dem ut, og samtidig beholde den lekne og frie tilnærminga.",
+      "Musikken på Asura kan vel best karakteriseres som en organisk mikstur av nynnbare melodier, gyngende groover og spontane utbrudd. Plata starter med «Kedi», som med sin eiendommelige tonalitet fører oss rett inn i dette Leanske universet. Men tro ikke at vi her har med et noe ensformig folkemusikk-uttrykk å gjøre. For «Jysla Jysla» kunne kanskje vært skrevet av Elton John? Tittelsporet «Asura» beveger seg fra det føydale Japan til en midtsommerdans i skogen. Gjennom plata forflytter musikken seg fra stemning til stemning i takt med hjertet selv, altså noe ujevnt men stadig skiftende. «Sakina» er tydelig Gnawa-inspirert mens «Elgens hverdag» nærmer seg vuggesangens urgamle kraft. Innimellom dem er låta «Bølgebryter» som nok vil få den jazzinteresserte lytteren til å nikke med. Plata avsluttes med før nevnte «Sneaky Sneaky» som har vært et repeterende tema for dette bandet i flere år. Felles for spora er at man kan høre dem som ulike festlige ritual for hylling av musikkens uendelige muligheter."
+    ],
+    "imageAttribution": "Foto: Sunniva Ihlhaug",
+    "bands": {
+      "Marthe Lea Band": [
+        "Marthe Lea – tenorsaksofon, fløyte, piano, gitar, stemme, udungu, perkusjon",
+        "Andreas Hoem Røysum – klarinett, bassklarinett, stemme, perkusjon",
+        "Hans P. Kjorstad – fele, fløyte, stemme, perkusjon",
+        "Egil Kalman – kontrabass, modulær synthesizer, stemme",
+        "Hans Hulbækmo – trommer, perkusjon, stemme"
+      ]
+    },
+    "spotifyUri": "artist/1Xz9eflMsRN7FeoN7rMQKJ?si=IkmB39piS1qla_ouzMENCA",
+    "youtubeUrl": "https://www.youtube.com/embed/nppPVRjzU2Y"
+  },
+  {
+    "concerts": [{ "venueId": "elvesalen", "startAt": "2022-07-02T17:00" }],
+    "name": "Maridalen",
+    "imageName": "maridalen.jpg",
+    "id": "maridalen",
+    "paragraphs": [
+      "Intim kammerjazz fra Maridalen",
+      "Den norske jazztrioen Maridalen henter navnet fra det naturskjønne dalføret som ligger rett nord for Oslo sentrum. Trioens debutalbum «Maridalen» som ble utgitt våren 2021 har mottatt strålende anmeldelser både nasjonalt og internasjonalt. Albumet ble blant annet ført opp på listene «Årets beste norske» i Aftenposten og «Jazz albums of the Year» i engelske MOJO Magazine.",
+      "25.mars 2022 slipper Maridalen sitt andre album «Bortenfor» på Jazzland Recordings. I likhet med debutplaten er også dette albumet spilt inn i den gamle trekirka i Maridalen, men denne gangen beveger trioen seg også litt bortenfor dalen - ned mot nattbelyste gater og gamle bygårder.",
+      "Med den varme og akustiske klangen fra kontrabass, trompet og treblås, skaper trioen sitt eget musikalske rom som tar tak i ulike stemningsøyeblikk og danner små fortellinger. Gjennom disse øyeblikkene blir lytteren invitert med på nye eventyr; fra et portrom i byen utforskes gamle og glemte steder gjennom bilder fra en film til en tur på en månesykkel i drømmeland.",
+      "Stemningene og fortellingene formidles gjennom et sterkt kollektiv der summen er større enn enkeltprestasjonene – der rommet, atmosfæren og spenningen blir en del av helheten. Lydbildet er intimt og transparent og gir både stort ansvar og mye rom for de tre musikerne å spille på. Trioen tar også i bruk små enkle pålegg fra piano, en gammel radio og kjøkkenredskaper, i tillegg til at de har fått med seg pedalsteel-gitarist Emil Brattested på to låter.",
+      "«Landets mest sjarmerende trio» 5/6<br /><em>– Arild R. Andersen, Aftenposten</em>",
+      "«Dette bør bli folkelytting»<br /><em>– Audun Vinger, DN</em>",
+      "«Bortenfor excels in catalyzing beauty» 4/5<br /><em>– Andy Cowan, MOJO magazine</em>",
+      "«Comforting beauty is the consistent, satisfied aim.»<br /><em>– Nick Hasted, Jazzwize</em>",
+      "Das Album der Woche, WDR (Germany)"
+    ],
+    "bands": {
+      "Maridalen": [
+        "Anders Hefre - saksofon",
+        "Jonas Kilmork Vemøy - trompet",
+        "Andreas Rødland Haga – kontrabass"
+      ]
+    },
+    "youtubeUrl": "https://www.youtube.com/embed/8yb-X6aq-aE",
+    "spotifyUri": "artist/4OQGQzQBxycDy5HlOGLAMJ?si=_1IZaiH6Q9CAaf29ROcchg",
+    "imageAttribution": "",
+    "externalTicketUrl": "https://checkout.ebillett.no/202/events/79104/purchase/setup"
+  },
+  {
+    "concerts": [{ "venueId": "teltet", "startAt": "2022-07-01T20:00" }],
+    "name": "Jenny Hval",
+    "imageName": "jenny-hval.jpg",
+    "id": "jenny-hval",
+    "paragraphs": [
+      "Kunstpop som drar oss med inn i den kollektive underbevisstheten.",
+      "Jenny Hval er kanskje den fremste representanten her til lands for det man gjerne kaller “kunstpop”. Musikken til tvedestrandingen er full av symbolikk og formeksperimenter – her finner man vampyrer, blackmetal-droner, kjærlighetspoesi. Hval maner fram et forhistorisk, nesten mytologisk mørke, og vever det sammen med kritiske skråblikk på tiden vi lever i, akkurat her og nå.",
+      "De siste årene har hun flørtet mer med popmusikk enn tidligere, men det er fortsatt milevis unna noe man finner på hitlistene. Hennes helt ferske album Classic Objects er hennes varmeste til dags dato – her aner man spor av både reggae og bossa nova. Hval har vært så dristig å kalle det sitt popalbum: Hver sang har vers og refreng, og lydbildet har et distinkt bandpreg. Albumet er utgitt på legendariske 4AD, plateselskapet som på 80-tallet nærmest egenhendig oppfant den alternative popmusikken.",
+      "Det er alltid morsomt å se Jenny Hval i konsertformat. En representant for bookingkomiteen har sett henne på festival i Spania, dansende rundt på scenen i vampyrdrakt. Andre ganger tar hun den helt ut – med bananas konseptuell scenografi, som flørter vel så mye med performancekunst som en tradisjonell konsert Til Mandaljazz tar hun med seg et fulltallig band, og man kan nok sette penger på at heller ikke det blir helt streit."
+    ],
+    "imageAttribution": "Jenny Berger Myhre",
+    "bands": {
+      "Medvirkende": [
+        "Jenny Hval",
+        "Håvard Reite Volden",
+        "Jenny Berger Myhre",
+        "Kyrre Geithus Laastad",
+        "Daniel Meyer Grønvold",
+        "Johan Erik Gustavson Lindvall",
+        "Linn Kristina Nystadnes"
+      ]
+    },
+    "youtubeUrl": "https://www.youtube.com/embed/2i2oJJwgLTk",
+    "spotifyUri": "artist/5eerVxtb9lY9p6D7m89Bs7?si=ClTCzs0fQb65GFI0jDbXlA"
   },
   {
     "concerts": [
@@ -143,33 +223,6 @@
     "isPulsArtist": true
   },
   {
-    "concerts": [
-      { "venueId": "teltet", "startAt": "2022-07-02T23:00" }
-    ],
-    "name": "The KutiMangoes",
-    "imageName": "the-kutimangoes.png",
-    "id": "the-kutimangoes",
-    "paragraphs": [
-      "Afrobeat i widescreen",
-      "Det internasjonalt anerkjente Københavnske ensemble tar Afrojazz til et nytt nivå. Deres 3. album «Afrotropism» (2019) forener afrikanske tradisjoner med europeisk modernitet. Man skal lete lenge for å finne et annet europeisk band som har bidratt mer til afrobeatens fornyede populæritet de siste årene enn dette københavnske seks-manns bandet ledet av Michael Blicher (sax) og Gustav Rasmussen (trombone, gitar).",
-      "The KutiMangoes har mottatt fantastiske anmeldelser internasjonalt og er kjent for sine livlige live-konserter. Uansett hvor de spiller, etterlater de et smilende publikum som roper etter mer! Etter bare et par takter med deres varme, blåser-bårne lyd er det umulig for publikum å sitte stille i stolene sine - så vi håper vi endelig får lov til å åpne dansegulvet inne i festivalteltet, for her kommer det til å rykke i dansefoten!"
-    ],
-    "imageAttribution": "Foto: Manuel Weber",
-    "bands": {
-      "The KutiMangoes": [
-        "Michael Blicher – sax, fløyte",
-        "Gustav Rasmussen – trombone, gitar",
-        "Aske Drasbæk – sax",
-        "Johannes Buhl Andresen – Fender Rhodes, Moog bass",
-        "Casper Mikkelsen/Eddi Jarl – trommer",
-        "Magnus Jochumsen – perkusjon"
-      ]
-    },
-    "spotifyUri": "artist/3Q5iBVx1lEGSrVPbJt0mBp?si=kN00K9R8SMel1Zn1Q1oB_g",
-    "youtubeUrl": "https://www.youtube.com/embed/oYRBOgOyV2E",
-    "isPulsArtist": true
-  },
-  {
     "concerts": [{ "venueId": "teltet", "startAt": "2022-06-30T22:10" }],
     "name": "Fra Det Onde",
     "imageName": "fra-det-onde.png",
@@ -255,61 +308,6 @@
     "spotifyUri": "artist/5SJxqItomNLumd1K5bVAcb?si=7aoty892TQO72Eug5GbJUg",
     "youtubeUrl": "https://www.youtube.com/embed/lcuoN5jKzlo",
     "isPulsArtist": true
-  },
-  {
-    "concerts": [{ "venueId": "teltet", "startAt": "2022-07-02T19:00" }],
-    "name": "Marthe Lea Band",
-    "imageName": "marthe-lea-band.jpg",
-    "id": "marthe-lea-band",
-    "paragraphs": [
-      "La det som skjer, skje!",
-      "Marthe Lea manøvrerer seg gjennom musikkens mysterium på en finurlig måte. Det har hun vist de siste årene i mange ulike sammenhenger med flere anerkjente musikere. Lea balanserer sitt inderlige og kraftfulle uttrykk, med både folketoner og hyling, på en befriende måte. I sommer tar hun med seg bandet sitt og kommer til mandaljazz 2022!",
-      "Asura, debutalbumet som kom ut i juni 2021, er Marthe Lea Band sin kjærlighetserklæring til livet. Tydelig inspirert av folkemusikk fra fjern og nær kan man gjennom syv høyst ulike låter høre musikernes bakgrunner og interesser forplante seg i sjelfulle vibrasjoner. Dette er musikk for feiring!",
-      "Marthe Lea opptrer med en rekke instrumenter på dette albumet. Piano-, gitar- og fløyte-spillet hennes faller seg like naturlig som når hun spiller på hovedinstrumentet sitt; tenorsaksofon. Leser man gjennom bestillingslisten finner man at samtlige musikere er multiinstrumentalister, så publikum får vitne flere instrumentbytter live på scenen.",
-      "Bandet har siden 2018 spilt en rekke fritt improviserte konserter som gjerne har vart i både en og to timer. Filosofien har vært å la det som skjer, skje. De har faktisk bare hatt en låt på repertoaret, titulert «Sneaky Sneaky». Overraskelsen var derfor stor da Lea dukket opp dagen før innspillingen med seks helt nye låter, alle med finurlige vendinger - akkurat som Marthe Lea selv. Innspillingen ble så et forsøk på å spille disse låtene slik Lea hadde tenkt dem ut, og samtidig beholde den lekne og frie tilnærminga.",
-      "Musikken på Asura kan vel best karakteriseres som en organisk mikstur av nynnbare melodier, gyngende groover og spontane utbrudd. Plata starter med «Kedi», som med sin eiendommelige tonalitet fører oss rett inn i dette Leanske universet. Men tro ikke at vi her har med et noe ensformig folkemusikk-uttrykk å gjøre. For «Jysla Jysla» kunne kanskje vært skrevet av Elton John? Tittelsporet «Asura» beveger seg fra det føydale Japan til en midtsommerdans i skogen. Gjennom plata forflytter musikken seg fra stemning til stemning i takt med hjertet selv, altså noe ujevnt men stadig skiftende. «Sakina» er tydelig Gnawa-inspirert mens «Elgens hverdag» nærmer seg vuggesangens urgamle kraft. Innimellom dem er låta «Bølgebryter» som nok vil få den jazzinteresserte lytteren til å nikke med. Plata avsluttes med før nevnte «Sneaky Sneaky» som har vært et repeterende tema for dette bandet i flere år. Felles for spora er at man kan høre dem som ulike festlige ritual for hylling av musikkens uendelige muligheter."
-    ],
-    "imageAttribution": "Foto: Sunniva Ihlhaug",
-    "bands": {
-      "Marthe Lea Band": [
-        "Marthe Lea – tenorsaksofon, fløyte, piano, gitar, stemme, udungu, perkusjon",
-        "Andreas Hoem Røysum – klarinett, bassklarinett, stemme, perkusjon",
-        "Hans P. Kjorstad – fele, fløyte, stemme, perkusjon",
-        "Egil Kalman – kontrabass, modulær synthesizer, stemme",
-        "Hans Hulbækmo – trommer, perkusjon, stemme"
-      ]
-    },
-    "spotifyUri": "artist/1Xz9eflMsRN7FeoN7rMQKJ?si=IkmB39piS1qla_ouzMENCA",
-    "youtubeUrl": "https://www.youtube.com/embed/nppPVRjzU2Y"
-  },
-  {
-    "concerts": [{ "venueId": "elvesalen", "startAt": "2022-07-02T17:00" }],
-    "name": "Maridalen",
-    "imageName": "maridalen.jpg",
-    "id": "maridalen",
-    "paragraphs": [
-      "Intim kammerjazz fra Maridalen",
-      "Den norske jazztrioen Maridalen henter navnet fra det naturskjønne dalføret som ligger rett nord for Oslo sentrum. Trioens debutalbum «Maridalen» som ble utgitt våren 2021 har mottatt strålende anmeldelser både nasjonalt og internasjonalt. Albumet ble blant annet ført opp på listene «Årets beste norske» i Aftenposten og «Jazz albums of the Year» i engelske MOJO Magazine.",
-      "25.mars 2022 slipper Maridalen sitt andre album «Bortenfor» på Jazzland Recordings. I likhet med debutplaten er også dette albumet spilt inn i den gamle trekirka i Maridalen, men denne gangen beveger trioen seg også litt bortenfor dalen - ned mot nattbelyste gater og gamle bygårder.",
-      "Med den varme og akustiske klangen fra kontrabass, trompet og treblås, skaper trioen sitt eget musikalske rom som tar tak i ulike stemningsøyeblikk og danner små fortellinger. Gjennom disse øyeblikkene blir lytteren invitert med på nye eventyr; fra et portrom i byen utforskes gamle og glemte steder gjennom bilder fra en film til en tur på en månesykkel i drømmeland.",
-      "Stemningene og fortellingene formidles gjennom et sterkt kollektiv der summen er større enn enkeltprestasjonene – der rommet, atmosfæren og spenningen blir en del av helheten. Lydbildet er intimt og transparent og gir både stort ansvar og mye rom for de tre musikerne å spille på. Trioen tar også i bruk små enkle pålegg fra piano, en gammel radio og kjøkkenredskaper, i tillegg til at de har fått med seg pedalsteel-gitarist Emil Brattested på to låter.",
-      "«Landets mest sjarmerende trio» 5/6<br /><em>– Arild R. Andersen, Aftenposten</em>",
-      "«Dette bør bli folkelytting»<br /><em>– Audun Vinger, DN</em>",
-      "«Bortenfor excels in catalyzing beauty» 4/5<br /><em>– Andy Cowan, MOJO magazine</em>",
-      "«Comforting beauty is the consistent, satisfied aim.»<br /><em>– Nick Hasted, Jazzwize</em>",
-      "Das Album der Woche, WDR (Germany)"
-    ],
-    "bands": {
-      "Maridalen": [
-        "Anders Hefre - saksofon",
-        "Jonas Kilmork Vemøy - trompet",
-        "Andreas Rødland Haga – kontrabass"
-      ]
-    },
-    "youtubeUrl": "https://www.youtube.com/embed/8yb-X6aq-aE",
-    "spotifyUri": "artist/4OQGQzQBxycDy5HlOGLAMJ?si=_1IZaiH6Q9CAaf29ROcchg",
-    "imageAttribution": "",
-    "externalTicketUrl": "https://checkout.ebillett.no/202/events/79104/purchase/setup"
   },
   {
     "concerts": [{ "venueId": "piren", "startAt": "2022-07-02T11:30" }],
