@@ -8,6 +8,7 @@ import ReactMapboxGl, {
 } from "react-mapbox-gl";
 import { isMobile } from "react-device-detect";
 
+import { Link } from "../../components";
 import venues from "../../data/venues.json";
 
 const Map = ReactMapboxGl({
@@ -98,6 +99,7 @@ const VenueMap = () => {
             <h3 style={{ margin: 0 }}>{venue.name}</h3>
           </div>
           {venue.supportText && <div>{venue.supportText}</div>}
+          {venue.link && <Link href={venue.link}>Åpne i Google Maps</Link>}
         </Popup>
       )}
     </Map>
