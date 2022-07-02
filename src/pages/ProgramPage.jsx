@@ -1,10 +1,10 @@
 import React from "react";
 
-import { Program, ScrollToTopOnMount } from "../components";
+import { Program, ScrollToTodayOrTopOnMount } from "../components";
 
 const ProgramPage = () => (
   <div style={{ marginTop: "4rem" }}>
-    <ScrollToTopOnMount />
+    <ScrollToTodayOrTopOnMount />
     <Program isAlwaysOpen />
   </div>
 );
