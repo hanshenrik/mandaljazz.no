@@ -3,7 +3,7 @@ import { withRouter } from "react-router-dom";
 
 import Artist from "./Artist";
 import styles from "./Artists.css";
-import artistData from "./data.json";
+import artistData from "../../data/artists.json";
 
 // - blend mode på grid-bilder: lighten, bruk hover til å se ordentlig. Flere grønnskjateringer.
 // - større grid-items på desktop?

@@ -1,6 +1,6 @@
 [
   {
-    "concerts": [{ "venue": "Teltet", "startAt": "2022-07-01T20:00" }],
+    "concerts": [{ "venueId": "teltet", "startAt": "2022-07-01T20:00" }],
     "name": "Jenny Hval",
     "imageName": "jenny-hval.jpg",
     "id": "jenny-hval",
@@ -26,7 +26,7 @@
     "spotifyUri": "artist/5eerVxtb9lY9p6D7m89Bs7?si=ClTCzs0fQb65GFI0jDbXlA"
   },
   {
-    "concerts": [{ "venue": "Teltet", "startAt": "2022-07-02T21:00" }],
+    "concerts": [{ "venueId": "teltet", "startAt": "2022-07-02T21:00" }],
     "name": "Steamdome",
     "imageName": "steamdome.jpg",
     "id": "steamdome",
@@ -56,17 +56,13 @@
   {
     "concerts": [
       {
-        "venue": "Uranienborg Parkeringshus",
-        "shortVenue": "Uranienborg P",
-        "venueSupportText": "Inngang fra Hestetroa via gangtunnel",
+        "venueId": "uranienborg-parkeringshus",
         "startAt": "2022-06-30T18:00"
       },
       {
         "extraConcertName": "ekstrakonsert",
         "shortExtraConcertName": "ekstra",
-        "venue": "Uranienborg Parkeringshus",
-        "shortVenue": "Uranienborg P",
-        "venueSupportText": "Inngang fra Hestetroa via gangtunnel",
+        "venueId": "uranienborg-parkeringshus",
         "startAt": "2022-06-30T19:20"
       }
     ],
@@ -117,7 +113,7 @@
     ]
   },
   {
-    "concerts": [{ "venue": "Teltet", "startAt": "2022-07-01T22:00" }],
+    "concerts": [{ "venueId": "teltet", "startAt": "2022-07-01T22:00" }],
     "name": "Marilyn Mazur – Shamania",
     "shortName": "Marilyn Mazur",
     "imageName": "marilyn-mazurs-shamania.png",
@@ -147,7 +143,9 @@
     "isPulsArtist": true
   },
   {
-    "concerts": [{ "venue": "Teltet", "startAt": "2022-07-02T23:00" }],
+    "concerts": [
+      { "venueId": "teltet", "startAt": "2022-07-02T23:00" }
+    ],
     "name": "The KutiMangoes",
     "imageName": "the-kutimangoes.png",
     "id": "the-kutimangoes",
@@ -172,7 +170,7 @@
     "isPulsArtist": true
   },
   {
-    "concerts": [{ "venue": "Teltet", "startAt": "2022-06-30T22:10" }],
+    "concerts": [{ "venueId": "teltet", "startAt": "2022-06-30T22:10" }],
     "name": "Fra Det Onde",
     "imageName": "fra-det-onde.png",
     "id": "fra-det-onde",
@@ -196,7 +194,7 @@
     "spotifyUri": "artist/5Ev9KzkLwMcyv5J7vNLJGQ"
   },
   {
-    "concerts": [{ "venue": "Teltet", "startAt": "2022-07-01T18:00" }],
+    "concerts": [{ "venueId": "teltet", "startAt": "2022-07-01T18:00" }],
     "shortName": "Akmee",
     "name": "Akmee – 100-årsjubileum",
     "imageName": "akmee.jpg",
@@ -219,7 +217,7 @@
     "isByjubileumArtist": true
   },
   {
-    "concerts": [{ "venue": "Elvesalen, Buen", "startAt": "2022-07-01T16:00" }],
+    "concerts": [{ "venueId": "elvesalen", "startAt": "2022-07-01T16:00" }],
     "name": "Impro Fauna",
     "imageName": "impro-fauna.jpg",
     "id": "impro-fauna",
@@ -236,7 +234,7 @@
     "externalTicketUrl": "https://checkout.ebillett.no/202/events/79103/purchase/setup"
   },
   {
-    "concerts": [{ "venue": "Sjøboden", "startAt": "2022-07-01T23:30" }],
+    "concerts": [{ "venueId": "sjoboden", "startAt": "2022-07-01T23:30" }],
     "name": "The Big YES!",
     "imageName": "the-big-yes.jpg",
     "id": "the-big-yes",
@@ -259,7 +257,7 @@
     "isPulsArtist": true
   },
   {
-    "concerts": [{ "venue": "Teltet", "startAt": "2022-07-02T19:00" }],
+    "concerts": [{ "venueId": "teltet", "startAt": "2022-07-02T19:00" }],
     "name": "Marthe Lea Band",
     "imageName": "marthe-lea-band.jpg",
     "id": "marthe-lea-band",
@@ -285,7 +283,7 @@
     "youtubeUrl": "https://www.youtube.com/embed/nppPVRjzU2Y"
   },
   {
-    "concerts": [{ "venue": "Elvesalen, Buen", "startAt": "2022-07-02T17:00" }],
+    "concerts": [{ "venueId": "elvesalen", "startAt": "2022-07-02T17:00" }],
     "name": "Maridalen",
     "imageName": "maridalen.jpg",
     "id": "maridalen",
@@ -314,7 +312,7 @@
     "externalTicketUrl": "https://checkout.ebillett.no/202/events/79104/purchase/setup"
   },
   {
-    "concerts": [{ "venue": "Piren Kulturrom", "startAt": "2022-07-02T11:30" }],
+    "concerts": [{ "venueId": "piren", "startAt": "2022-07-02T11:30" }],
     "name": "Schemes",
     "imageName": "schemes.jpg",
     "id": "schemes",
@@ -334,7 +332,7 @@
     }
   },
   {
-    "concerts": [{ "venue": "Teltet", "startAt": "2022-06-30T20:40" }],
+    "concerts": [{ "venueId": "teltet", "startAt": "2022-06-30T20:40" }],
     "name": "¡BangBang Watergun!",
     "imageName": "bangbang-watergun.jpg",
     "id": "bangbang-watergun",
@@ -363,11 +361,11 @@
     "concerts": [
       {
         "startAt": "2022-07-01T13:00",
-        "venue": "Lekebutikken"
+        "venueId": "lekebutikken"
       },
       {
         "startAt": "2022-07-02T13:00",
-        "venue": "Lekebutikken"
+        "venueId": "lekebutikken"
       }
     ],
     "isFree": true,
@@ -400,7 +398,7 @@
     ]
   },
   {
-    "concerts": [{ "venue": "Hestetroa", "startAt": "2022-07-02T14:00" }],
+    "concerts": [{ "venueId": "hestetroa", "startAt": "2022-07-02T14:00" }],
     "isFree": true,
     "name": "SNUS vs. BUJO",
     "imageName": "snus-bujo.jpg",

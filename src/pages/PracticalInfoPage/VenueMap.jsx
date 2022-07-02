@@ -8,6 +8,8 @@ import ReactMapboxGl, {
 } from "react-mapbox-gl";
 import { isMobile } from "react-device-detect";
 
+import venues from "../../data/venues.json";
+
 const Map = ReactMapboxGl({
   accessToken:
     "pk.eyJ1IjoiaGFuc2hlbnJpayIsImEiOiJjaXpjdTc5a3AwMDhrMndwZW1ucWdkdXdwIn0.a15J4-cKGPIZClcvh-LeTQ",
@@ -25,40 +27,6 @@ const buildingsPaint = {
   },
   "fill-extrusion-opacity": 0.6,
 };
-
-const venues = [
-  {
-    id: "teltet",
-    name: "Teltet (Kulturfabrikken)",
-    coordinates: [7.457609, 58.024953],
-  },
-  { id: "sjoboden", name: "Sjøboden", coordinates: [7.451948, 58.025868] },
-  {
-    id: "buen",
-    name: "Buen (Elvesalen)",
-    coordinates: [7.456102489810863, 58.025413017347816],
-  },
-  {
-    id: "piren-kulturrom",
-    name: "Piren Kulturrom",
-    coordinates: [7.45642627188327, 58.02126823756139],
-  },
-  {
-    id: "lekebutikken",
-    name: "Lekebutikken",
-    coordinates: [7.4556629215051355, 58.02751486008526],
-  },
-  {
-    id: "hestetroa",
-    name: "Hestetroa",
-    coordinates: [7.455256960080562, 58.027854579180655],
-  },
-  {
-    id: "uranienborg-p-hus-inngang",
-    name: "Inngang Uranienbord P-hus",
-    coordinates: [7.454833859794429, 58.02807705665625],
-  },
-];
 
 const VenueMap = () => {
   const [venue, setVenue] = useState();
@@ -126,7 +94,10 @@ const VenueMap = () => {
       </Layer>
       {venue && (
         <Popup key={venue.id} coordinates={venue.coordinates}>
-          <strong>{venue.name}</strong>
+          <div>
+            <h3 style={{ margin: 0 }}>{venue.name}</h3>
+          </div>
+          {venue.supportText && <div>{venue.supportText}</div>}
         </Popup>
       )}
     </Map>

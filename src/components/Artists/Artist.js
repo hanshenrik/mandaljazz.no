@@ -1,7 +1,7 @@
 import React from "react";
 import classNames from "classnames";
 import dayjs from "dayjs";
-import { capitalize } from "lodash";
+import { capitalize, find } from "lodash";
 import { HashLink } from "react-router-hash-link";
 import { NavLink, Link as ReactRouterLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -16,6 +16,7 @@ import byjubileumImg from "../../assets/images/byjubileum.png";
 import sparebankenSorImg from "../../assets/images/sponsors/sparebanken-sor.png";
 import linkStyles from "../Links/Link.css";
 import { PulsInfoBox, Link, Button } from "../";
+import venueData from "../../data/venues.json";
 
 const getImageUrl = (imageName) =>
   require(`../../assets/images/artists/${imageName}`);
@@ -127,6 +128,7 @@ class Artist extends React.Component {
     const style = isActive
       ? {}
       : { backgroundImage: `url(${getImageUrl(imageName)})` };
+
     return (
       <div
         className={classNames(styles.Artist, className, {
@@ -227,13 +229,9 @@ class Artist extends React.Component {
                       [styles.MultipleConcerts]: concerts.length > 1,
                     })}
                   >
-                    {concerts.map(
-                      ({
-                        startAt,
-                        venue,
-                        venueSupportText,
-                        extraConcertName,
-                      }) => (
+                    {concerts.map(({ startAt, venueId, extraConcertName }) => {
+                      const venue = find(venueData, { id: venueId });
+                      return (
                         <div key={startAt} className={styles.Concert}>
                           {extraConcertName && (
                             <h4
@@ -259,10 +257,14 @@ class Artist extends React.Component {
                               <>
                                 <FontAwesomeIcon icon={faMapMarkerAlt} />
                                 <div>
-                                  <div>{venue}</div>
-                                  {venueSupportText && (
+                                  {venue.link ? (
+                                    <Link href={venue.link}>{venue.name}</Link>
+                                  ) : (
+                                    <div>{venue.name}</div>
+                                  )}
+                                  {venue.supportText && (
                                     <div style={{ fontSize: "0.9rem" }}>
-                                      {venueSupportText}
+                                      {venue.supportText}
                                     </div>
                                   )}
                                 </div>
@@ -270,8 +272,8 @@ class Artist extends React.Component {
                             )}
                           </div>
                         </div>
-                      )
-                    )}
+                      );
+                    })}
                   </div>
                 )}
                 <div style={{ margin: "2rem 0" }}>

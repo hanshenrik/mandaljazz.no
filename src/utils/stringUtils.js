@@ -4,5 +4,11 @@ export const HTMLEntities = {
   nonBreakingSpace: "\u00A0",
   ampersand: "\u0026",
   trigram: "\u2630",
-  multiplicationX: "\u2715"
+  multiplicationX: "\u2715",
 };
+
+export const generateId = (possiblyUnsafeIdString) =>
+  possiblyUnsafeIdString &&
+  `id-${possiblyUnsafeIdString
+    .replace(/[^a-zA-Z/-]+/, "-")
+    .replace(/\s/g, "")}`;

@@ -1,0 +1,47 @@
+[
+  {
+    "id": "teltet",
+    "link": "https://goo.gl/maps/5HAz8CiGMzir48a47",
+    "name": "Teltet",
+    "supportText": "Kulturfabrikken",
+    "coordinates": [7.457609, 58.024953]
+  },
+  {
+    "id": "elvesalen",
+    "link": "https://goo.gl/maps/DFWhAkxsG79Z6XsSA",
+    "name": "Elvesalen, Buen",
+    "coordinates": [7.456102489810863, 58.025413017347816]
+  },
+  {
+    "id": "sjoboden",
+    "link": "https://goo.gl/maps/Zckod9cgSsvwETBi7",
+    "name": "Sjøboden",
+    "coordinates": [7.451948, 58.025868]
+  },
+  {
+    "id": "piren",
+    "link": "https://goo.gl/maps/wUtGQW5PBwdmxqvW8",
+    "name": "Piren Kulturrom",
+    "coordinates": [7.45642627188327, 58.02126823756139]
+  },
+  {
+    "id": "lekebutikken",
+    "link": "https://goo.gl/maps/6ZMtR921b1Spj9uF7",
+    "name": "Lekebutikken",
+    "coordinates": [7.4556629215051355, 58.02751486008526]
+  },
+  {
+    "id": "hestetroa",
+    "link": "https://goo.gl/maps/7jcZQyep46oVotuA6",
+    "name": "Hestetroa",
+    "coordinates": [7.455256960080562, 58.027854579180655]
+  },
+  {
+    "id": "uranienborg-parkeringshus",
+    "link": "https://goo.gl/maps/pwXqiPr21wd7diaV7",
+    "name": "Uranienborg Parkeringshus",
+    "supportText": "Inngang fra Hestetroa via gangtunnel",
+    "shortName": "Uranienborg P",
+    "coordinates": [7.454833859794429, 58.02807705665625]
+  }
+]

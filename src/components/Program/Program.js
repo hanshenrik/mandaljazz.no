@@ -9,7 +9,10 @@ import "react-slidedown/lib/slidedown.css";
 
 import { RoundedButton, HashLink, RouterLink } from "../";
 import styles from "./Program.css";
-import artists from "../Artists/data.json";
+import { generateId } from "../../utils/stringUtils";
+import artists from "../../data/artists.json";
+import venues from "../../data/venues.json";
+import { find } from "lodash";
 
 class Program extends React.Component {
   static defaultProps = {
@@ -31,7 +34,7 @@ class Program extends React.Component {
   concertsGroupedByDay = () =>
     Object.entries(
       groupBy(sortBy(this.concerts, "startAt"), (concert) =>
-        capitalize(dayjs(concert.startAt).format("dddd D. MMMM"))
+        dayjs(concert.startAt).format("dddd D. MMMM")
       )
     );
 
@@ -91,44 +94,49 @@ class Program extends React.Component {
           closed={!isAlwaysOpen && !this.state.isOpen}
           transitionOnAppear={false}
         >
-          {this.concertsGroupedByDay().map(([day, concerts]) => (
-            <div key={day} className={styles.ProgramDay}>
-              <>
-                <h2>{day}</h2>
-                <ul className={styles.ProgramList}>
-                  {concerts.map(({ artist, ...concert }) => (
-                    <li
-                      key={concert.startAt}
-                      className={styles.ProgramListItem}
-                    >
-                      <span
-                        className={styles.ProgramEntry}
-                        style={{
-                          textDecoration: concert.cancelled
-                            ? "line-through"
-                            : "",
-                        }}
-                      >
-                        <span className={styles.ConcertInfo}>
-                          {dayjs(concert.startAt).format("HH:mm")} @{" "}
-                          {concert.shortVenue || concert.venue}
-                        </span>
-                        <span className={styles.ArtistName}>
-                          {this.renderArtistText({
-                            artist,
-                            concert,
-                          })}
-                        </span>
-                      </span>
-                      <span style={{ fontSize: "14px" }}>
-                        {concert.cancelled && " Avlyst"}
-                      </span>
-                    </li>
-                  ))}
-                </ul>
-              </>
-            </div>
-          ))}
+          {this.concertsGroupedByDay().map(([day, concerts]) => {
+            return (
+              <div key={day} id={generateId(day)} className={styles.ProgramDay}>
+                <>
+                  <h2>{capitalize(day)}</h2>
+                  <ul className={styles.ProgramList}>
+                    {concerts.map(({ artist, ...concert }) => {
+                      const venue = find(venues, { id: concert.venueId });
+                      return (
+                        <li
+                          key={concert.startAt}
+                          className={styles.ProgramListItem}
+                        >
+                          <span
+                            className={styles.ProgramEntry}
+                            style={{
+                              textDecoration: concert.cancelled
+                                ? "line-through"
+                                : "",
+                            }}
+                          >
+                            <span className={styles.ConcertInfo}>
+                              {dayjs(concert.startAt).format("HH:mm")} @{" "}
+                              {venue.shortName || venue.name}
+                            </span>
+                            <span className={styles.ArtistName}>
+                              {this.renderArtistText({
+                                artist,
+                                concert,
+                              })}
+                            </span>
+                          </span>
+                          <span style={{ fontSize: "14px" }}>
+                            {concert.cancelled && " Avlyst"}
+                          </span>
+                        </li>
+                      );
+                    })}
+                  </ul>
+                </>
+              </div>
+            );
+          })}
           <div />
           <div />
           {/* <em style={{ fontSize: "12px", padding: "1rem", textAlign: "right" }}>
