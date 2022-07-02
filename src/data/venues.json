@@ -3,13 +3,14 @@
     "id": "teltet",
     "link": "https://goo.gl/maps/tyHoBufCjgKrQuVWA",
     "name": "Teltet",
-    "supportText": "Kulturfabrikken",
+    "supportText": "på Kulturfabrikken",
     "coordinates": [7.457609, 58.024953]
   },
   {
     "id": "elvesalen",
     "link": "https://goo.gl/maps/DFWhAkxsG79Z6XsSA",
-    "name": "Elvesalen, Buen",
+    "name": "Elvesalen",
+    "supportText": "i Buen",
     "coordinates": [7.456102489810863, 58.025413017347816]
   },
   {
