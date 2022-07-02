@@ -16,6 +16,5 @@ export { default as TicketsInfo } from "./TicketsInfo";
 export { default as PeekingSquirrel } from "./PeekingSquirrel";
 export { default as PulsInfoBox } from "./PulsInfoBox";
 export { default as ScrollToTopOnMount } from "./ScrollToTopOnMount";
-export { default as ScrollToTodayOrTopOnMount } from "./ScrollToTodayOrTopOnMount";
 export { default as GoogleAnalyticsListener } from "./GoogleAnalyticsListener";
 export { default as CoronaInfoBox } from "./CoronaInfoBox";

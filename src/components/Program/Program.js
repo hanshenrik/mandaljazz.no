@@ -94,9 +94,13 @@ class Program extends React.Component {
           closed={!isAlwaysOpen && !this.state.isOpen}
           transitionOnAppear={false}
         >
-          {this.concertsGroupedByDay().map(([day, concerts]) => {
+          {this.concertsGroupedByDay().map(([day, concerts], index) => {
             return (
-              <div key={day} id={generateId(day)} className={styles.ProgramDay}>
+              <div
+                key={day}
+                id={index === 0 ? null : generateId(day)}
+                className={styles.ProgramDay}
+              >
                 <>
                   <h2>{capitalize(day)}</h2>
                   <ul className={styles.ProgramList}>
