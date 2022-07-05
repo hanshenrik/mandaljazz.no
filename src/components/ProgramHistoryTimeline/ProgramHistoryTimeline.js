@@ -38,7 +38,10 @@ const ProgramHistoryTimeline = ({ children }) => (
           <li>Schemes</li>
           <li>¡BangBang Watergun!</li>
           <li>365 dager i et år</li>
-          <li>SNUS vs. BUJO</li>
+          <li>
+            SNUS (Sørnorsk Ungdomsstorband) vs. BUJO (Buskerud
+            ungdomsjazzorkester)
+          </li>
         </ul>
         <SpotifyPlayer uri="spotify:user:mandaljazz:playlist:7bRe3n4p7ki3482DA7paLg" />
       </div>

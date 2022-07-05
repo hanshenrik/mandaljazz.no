@@ -29,8 +29,11 @@
   margin-top: 0;
 }
 :local(.EventList) {
-  list-style-type: none;
+  /* list-style-type: none; */
   font-family: "Montserrat", sans-serif;
+}
+:local(.EventList li) {
+  padding: 0.25rem 0;
 }
 
 :local(.Poster) {
