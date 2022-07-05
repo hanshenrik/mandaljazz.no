@@ -133,14 +133,23 @@ iframe {
   transform: rotate(-180deg);
 }
 
+figure {
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
+
 figcaption {
   font-style: italic;
   font-size: 0.9em;
-  text-align: right;
+  padding: 0 1rem;
 }
 
 @media screen and (min-width: 720px) {
   :local(.CoronaInfoBox) {
     padding: 1.5rem 2.5rem;
+  }
+
+  figcaption {
+    padding: 0;
   }
 }

@@ -7,6 +7,7 @@ import {
   Collapsible,
   ScrollToTopOnMount,
 } from "../../components";
+import volunteers2022Img from "../../assets/images/frivillige-2022.jpg";
 import volunteers2019Img from "../../assets/images/frivillige-2019.jpg";
 import volunteers2018Img from "../../assets/images/frivillige-2018.jpg";
 import volunteers2016Img from "../../assets/images/frivillige-2016.jpg";
@@ -138,7 +139,11 @@ const VolunteerPage = () => (
       </Collapsible>
     </div>
     {/* <ScrollToFormButton /> */}
-    <div style={{ maxWidth: "720px" }}>
+    <figure>
+      <img src={volunteers2022Img} alt="Frivilliggjengen 2022" />
+      <figcaption>Frivilliggjengen 2022</figcaption>
+    </figure>
+    <div>
       <Blockquote person="Håvard (bar og servering)">
         Hadde det ikke vært for at man måtte okkupere den beste plassen i
         teltet, høre på det siste skriket innen jazz, omgås sprudlende fornøyde
@@ -186,10 +191,6 @@ const VolunteerPage = () => (
       >
         Henter skjema…
       </iframe> */}
-      <figure>
-        <img src={volunteers2014Img} alt="Frivilliggjengen 2014" />
-        <figcaption>Frivilliggjengen 2014</figcaption>
-      </figure>
       <Blockquote person="Mari Marie (transport)">
         For en mulighet til å bli kjent med masse forskjellige folk på kjøretur!
         <br />
@@ -203,6 +204,10 @@ const VolunteerPage = () => (
         konsertene. Og veldig mye mer chill fysisk hvis du ikke er så fan av å
         bære tungt eller stå lenge.
       </Blockquote>
+      <figure>
+        <img src={volunteers2014Img} alt="Frivilliggjengen 2014" />
+        <figcaption>Frivilliggjengen 2014</figcaption>
+      </figure>
     </div>
     <p>Vi gleder oss til å møte deg :)</p>
   </div>
