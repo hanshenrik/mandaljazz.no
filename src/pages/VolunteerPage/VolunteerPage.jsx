@@ -51,11 +51,11 @@ const VolunteerPage = () => (
       }}
     >
       <p>
-        Så kult at du vurderer å være med som frivillig på Mandaljazz 2022!
-        Nedenfor kan du lese litt om de ulike frivilliggjengene for å finne din
-        gjeng.
+        Årets festival er over, men vi trenger selvsagt også mange frivillige
+        til festivalen i 2023. Følg med utpå nyåret en gang for mer informasjon
+        om hvordan man registrerer seg som frivillig.
       </p>
-      <div
+      {/* <div
         style={{
           marginTop: "-2rem",
           display: "flex",
@@ -63,7 +63,7 @@ const VolunteerPage = () => (
         }}
       >
         <ScrollToFormButton />
-      </div>
+      </div> */}
       <p>
         Som frivillig på Mandaljazz får du oppleve massevis av god musikk og mye
         morro sammen med en herlig gjeng sosiale, hyggelige og åpne folk.
@@ -137,7 +137,7 @@ const VolunteerPage = () => (
         </div>
       </Collapsible>
     </div>
-    <ScrollToFormButton />
+    {/* <ScrollToFormButton /> */}
     <div style={{ maxWidth: "720px" }}>
       <Blockquote person="Håvard (bar og servering)">
         Hadde det ikke vært for at man måtte okkupere den beste plassen i
@@ -174,7 +174,7 @@ const VolunteerPage = () => (
         <figcaption>Frivilliggjengen 2016</figcaption>
       </figure>
       <div id="frivilligskjema" />
-      <iframe
+      {/* <iframe
         id="volunteer-form"
         title="Frivilligskjema"
         src="https://docs.google.com/forms/d/e/1FAIpQLSdjCt2yNC6DBCJzAw8CZpQt9lhx_NIM_5WQJwXOEqFyFiliTQ/viewform?embedded=true"
@@ -185,7 +185,7 @@ const VolunteerPage = () => (
         marginWidth="0"
       >
         Henter skjema…
-      </iframe>
+      </iframe> */}
       <figure>
         <img src={volunteers2014Img} alt="Frivilliggjengen 2014" />
         <figcaption>Frivilliggjengen 2014</figcaption>
