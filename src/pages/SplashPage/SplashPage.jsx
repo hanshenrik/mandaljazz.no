@@ -4,21 +4,21 @@ import SpotifyPlayer from "react-spotify-player";
 import jazzlaug from "../../assets/images/profile/jazzlaug.png";
 // import christmasJazzlaug from "../../assets/images/jazzlaug-julehatt.png";
 import { Artists, ScrollToTopOnMount } from "../../components";
-import { HTMLEntities } from "../../utils/stringUtils";
 import styles from "./SplashPage.css";
 
 const SplashPage = () => (
   <div className={styles.SplashPage}>
     <ScrollToTopOnMount />
     <header className={styles.Header}>
-      <img
-        src={jazzlaug}
-        className={styles.Logo}
-        alt="Jazzlaug"
-      />
+      <img src={jazzlaug} className={styles.Logo} alt="Jazzlaug" />
       <h1 className={styles.HeaderText}>mandaljazz</h1>
       <p className={styles.SubHeader}>
-        30. juni {HTMLEntities.ndash} 2. juli 2022
+        Takk for i år{" "}
+        <span role="img" aria-label="yellow heart">
+          💛
+        </span>
+        <br />
+        Sees i 2023!
       </p>
     </header>
     <Artists />
