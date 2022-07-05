@@ -281,17 +281,22 @@ class Artist extends React.Component {
                     })}
                   </div>
                 )}
-                <div style={{ margin: "2rem 0" }}>
-                  <TicketButton
-                    isFree={isFree}
-                    isKidsConcert={isKidsConcert}
-                    externalTicketUrl={externalTicketUrl}
-                    mustReserveFreeTicket={mustReserveFreeTicket}
-                    startAtIfOnlyOneConcert={
-                      concerts.length === 1 ? concerts[0].startAt : null
-                    }
-                  />
-                </div>
+                {dayjs().isSameOrBefore(
+                  concerts[concerts.length - 1].startAt,
+                  "day"
+                ) && (
+                  <div style={{ margin: "2rem 0" }}>
+                    <TicketButton
+                      isFree={isFree}
+                      isKidsConcert={isKidsConcert}
+                      externalTicketUrl={externalTicketUrl}
+                      mustReserveFreeTicket={mustReserveFreeTicket}
+                      startAtIfOnlyOneConcert={
+                        concerts.length === 1 ? concerts[0].startAt : null
+                      }
+                    />
+                  </div>
+                )}
                 {bands && (
                   <div>
                     {Object.keys(bands).map((band) => (

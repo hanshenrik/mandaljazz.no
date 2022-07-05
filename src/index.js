@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import dayjs from "dayjs";
 import "dayjs/locale/nb";
+import isSameOrBefore from "dayjs/plugin/isSameOrBefore";
 import smoothscroll from "smoothscroll-polyfill";
 
 import "./index.css";
@@ -9,6 +10,7 @@ import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 
 dayjs.locale("nb");
+dayjs.extend(isSameOrBefore);
 
 smoothscroll.polyfill();
 
