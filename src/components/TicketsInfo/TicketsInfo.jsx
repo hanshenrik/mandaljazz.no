@@ -1,6 +1,10 @@
 import React from "react";
 
-import { Button, Link, HashLink } from "../../components";
+import {
+  Button,
+  Link,
+  // HashLink
+} from "../../components";
 import styles from "./TicketsInfo.css";
 
 // eslint-disable-next-line
@@ -31,11 +35,22 @@ const TicketsInfo = () => (
       Mandaljazz tilbyr enkeltbilletter, dagspass og festivalpass til publikum.
     </p>
 
-    <BuyTicketsButton />
+    <p>
+      Billetter kommer for salg når festivalen i 2023 nærmer seg.{" "}
+      <Link
+        href="https://www.facebook.com/mandaljazz/"
+        style={{ whiteSpace: "nowrap" }}
+      >
+        Følg oss på Facebook
+      </Link>{" "}
+      for rykende ferske billettslipp.
+    </p>
+
+    {/* <BuyTicketsButton /> */}
 
     <h3>Festivalpass og dagspass</h3>
     <p>Gir inngang til alle konserter.</p>
-    <p style={{ marginTop: 0 }}>
+    {/* <p style={{ marginTop: 0 }}>
       <em>
         NB! I år kreves det at alle, også de med festival- og dagspass,
         reserverer gratis plass til{" "}
@@ -62,11 +77,11 @@ const TicketsInfo = () => (
         </HashLink>
         .
       </em>
-    </p>
+    </p> */}
 
     <h3>Enkeltbilletter</h3>
     <p>Gir inngang til den aktuelle konserten.</p>
-    <p style={{ marginTop: 0 }}>
+    {/* <p style={{ marginTop: 0 }}>
       <em>
         Enkeltbilletter til konsertene i{" "}
         <Link href="https://www.buenkulturhus.no/">
@@ -79,7 +94,7 @@ const TicketsInfo = () => (
         </Link>
         .
       </em>
-    </p>
+    </p> */}
 
     <h3>Studenter og ungdom under 26 år</h3>
     <p>
@@ -88,28 +103,9 @@ const TicketsInfo = () => (
       barneskoler.
     </p>
 
-    <h3>Åpningskonsert</h3>
-    <p>Åpningskonserten er gratis i år!</p>
-    <p style={{ marginTop: 0 }}>
-      <em>
-        NB! I år kreves det at alle (både barn og voksne) reserverer{" "}
-        <HashLink
-          smooth
-          to={{
-            pathname: "/",
-            hash: "#stein-austrud-ekstra",
-            state: { activeId: "stein-austrud-ekstra" },
-          }}
-        >
-          gratis plass
-        </HashLink>
-        . Gjelder også de med festival- og dagspass.
-      </em>
-    </p>
-
     <h3>Barnekonsert</h3>
     <p>Barnekonserten er gratis for alle, både barn og voksne!</p>
-    <p style={{ marginTop: 0 }}>
+    {/* <p style={{ marginTop: 0 }}>
       <em>
         NB! I år kreves det at alle (både barn og voksne) reserverer{" "}
         <HashLink
@@ -124,7 +120,7 @@ const TicketsInfo = () => (
         </HashLink>
         . Gjelder også de med festival- og dagspass.
       </em>
-    </p>
+    </p> */}
 
     <h3>Funksjonshemmede med ledsagerbevis</h3>
     <p>
@@ -141,7 +137,7 @@ const TicketsInfo = () => (
       <li>Alle konserter starter presis.</li>
     </ul>
 
-    <BuyTicketsButton />
+    {/* <BuyTicketsButton /> */}
   </div>
 );
 
