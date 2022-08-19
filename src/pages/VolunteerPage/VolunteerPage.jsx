@@ -50,12 +50,25 @@ const VolunteerPage = () => (
         display: "flex",
         flexDirection: "column",
       }}
-    >
+      >
       <p>
         Årets festival er over, men vi trenger selvsagt også mange frivillige
-        til festivalen i 2023. Følg med utpå nyåret en gang for mer informasjon
+        til festivalen i 2023. Følg med i starten av 2023 for mer informasjon
         om hvordan man registrerer seg som frivillig.
       </p>
+      <p>
+        Selv om vi ikke har åpnet for registrering av frivillige ennå,
+        er vi på utkikk etter engasjerte mennesker mennesker som ønsker å
+        være med å arrangere festivalen i 2023. Er du interessert i å lage
+        festival, og forme den helt fra starten, ta ansvar for et nøkkelområde,
+        lære mye nytt og være med på sosiale turer, kurs og samlinger?
+      </p>
+      <Button
+        asLink
+        linkProps={{
+          href: "https://docs.google.com/document/d/1XhAXY_jClm-N99eKxKljZBLUEn-0i5AR6_Jvk1ch_MI/view?usp=sharing",
+        }}
+      >Bli med i festivalkomiteen</Button>
       {/* <div
         style={{
           marginTop: "-2rem",
