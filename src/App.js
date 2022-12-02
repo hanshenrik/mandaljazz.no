@@ -6,7 +6,7 @@ import {
   NavMenu,
   GoogleAnalyticsListener,
   Program,
-  // BuyTicketButton,
+  BuyTicketButton,
 } from "./components";
 import {
   AboutPage,
@@ -23,7 +23,7 @@ import {
   ByjubileumPage,
 } from "./pages";
 import CoronaPage from "./pages/CoronaPage";
-import kulturfabrikken from "./assets/images/profile/kulturfabrikken.png";
+import brostein from "./assets/images/profile/brostein.png";
 
 class App extends React.Component {
   render() {
@@ -120,13 +120,13 @@ class App extends React.Component {
                   />
                 </Switch>
                 <img
-                  src={kulturfabrikken}
-                  alt="Kulturfabrikken"
+                  src={brostein}
+                  alt="Brostein"
                   style={{
                     width: "100%",
-                    maxWidth: "375px",
+                    maxWidth: "620px",
                     margin: "3rem 0",
-                    placeSelf: "end",
+                    placeSelf: "center",
                   }}
                 />
                 {![
@@ -135,9 +135,9 @@ class App extends React.Component {
                   "kristiansand",
                   "gobi",
                 ].includes(location.pathname.replace(/\//g, "")) && <Footer />}
-                {/* {!["billetter"].includes(
+                {!["billetter"].includes(
                   location.pathname.replace(/\//g, "")
-                ) && <BuyTicketButton />} */}
+                ) && <BuyTicketButton />}
               </div>
             )}
           />

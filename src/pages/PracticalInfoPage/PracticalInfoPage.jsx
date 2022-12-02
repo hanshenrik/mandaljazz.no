@@ -8,7 +8,6 @@ import {
 } from "../../components";
 import styles from "./PracticalInfoPage.css";
 import VenueMap from "./VenueMap";
-import brostein from "../../assets/images/profile/brostein.png";
 
 const PracticalInfoPage = () => {
   return (
@@ -22,15 +21,6 @@ const PracticalInfoPage = () => {
       </p>
       <div className={styles.TextWidth}>
         <TravelInfo />
-        <img
-          src={brostein}
-          alt="Brostein"
-          style={{
-            width: "100%",
-            margin: "3rem 0",
-            placeSelf: "center",
-          }}
-        />
         <AccomodationInfo />
         <h1>Universell utforming</h1>
         <p>

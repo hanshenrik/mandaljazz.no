@@ -20,10 +20,10 @@ const BuyTicketsButton = () => (
       asLink
       large
       linkProps={{
-        href: "https://mandaljazz.ticketco.events/no/nb/e/mandaljazz-2022",
+        href: "https://tikkio.com/tickets/34261-mandaljazz-2023",
       }}
     >
-      Kjøp billetter på TicketCo
+      Kjøp billetter på Tikkio
     </Button>
   </div>
 );
@@ -46,7 +46,7 @@ const TicketsInfo = () => (
       for rykende ferske billettslipp.
     </p>
 
-    {/* <BuyTicketsButton /> */}
+    <BuyTicketsButton />
 
     <h3>Festivalpass og dagspass</h3>
     <p>Gir inngang til alle konserter.</p>
@@ -137,7 +137,7 @@ const TicketsInfo = () => (
       <li>Alle konserter starter presis.</li>
     </ul>
 
-    {/* <BuyTicketsButton /> */}
+    <BuyTicketsButton />
   </div>
 );
 
