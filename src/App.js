@@ -5,7 +5,7 @@ import {
   Footer,
   NavMenu,
   GoogleAnalyticsListener,
-  Program,
+  // Program,
   BuyTicketButton,
 } from "./components";
 import {
@@ -20,7 +20,7 @@ import {
   SpecificCityAdLandingPage,
   JazzMarketPage,
   SmatassjazzPage,
-  ByjubileumPage,
+  // ByjubileumPage,
 } from "./pages";
 import CoronaPage from "./pages/CoronaPage";
 import brostein from "./assets/images/profile/brostein.png";
@@ -38,7 +38,7 @@ class App extends React.Component {
                 ) && (
                   <>
                     <NavMenu />
-                    <Program />
+                    {/* <Program /> */}
                   </>
                 )}
                 <Switch location={location}>
@@ -59,7 +59,7 @@ class App extends React.Component {
                   <Route exact path="/om" component={AboutPage} />
                   <Route exact path="/koronainfo" component={CoronaPage} />
                   <Route exact path="/program" component={ProgramPage} />
-                  <Route exact path="/byjubileum" component={ByjubileumPage} />
+                  {/* <Route exact path="/byjubileum" component={ByjubileumPage} /> */}
                   <Route exact path="/billetter" component={TicketsPage} />
                   <Route
                     exact
