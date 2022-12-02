@@ -1,5 +1,4 @@
 import React from "react";
-import ReactGA from "react-ga";
 import classNames from "classnames";
 
 import logo from "../assets/images/jazzlaug.png";
@@ -64,12 +63,6 @@ const SpecificCityAdLandingPage = ({
       <div className={styles.ButtonGroup}>
         <CircledButton
           to="/billetter"
-          onClick={() =>
-            ReactGA.event({
-              category: "User",
-              action: `${city}: Clicked Buy Tickets button`
-            })
-          }
         >
           Kjøp
           <br />
@@ -77,12 +70,6 @@ const SpecificCityAdLandingPage = ({
         </CircledButton>
         {/* <CircledButton
           to="/program"
-          onClick={() =>
-            ReactGA.event({
-              category: "User",
-              action: `${city}: Clicked See Program button`
-            })
-          }
         >
           Årets
           <br />
