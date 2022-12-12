@@ -14,27 +14,10 @@ const BuyTicketButton = ({ ...props }) => {
         {...props}
       >
         {isMobile ? (
-          <div>
-          Super
-          <br />
-          Early Merry
-          <br />
-          Christmas
-          <br />
-          Bird-
-          <br />
-          billetter
-        </div>
+          <div>Billetter</div>
         ) : (
           <div>
             Kjøp
-            Super
-            <br />
-            Early Merry
-            <br />
-            Christmas
-            <br />
-            Bird-
             <br />
             billetter
           </div>
